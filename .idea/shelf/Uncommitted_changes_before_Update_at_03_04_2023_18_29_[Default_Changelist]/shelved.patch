@@ -1,0 +1,557 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"e734372e-659b-420d-85c9-37c6226b7340\" name=\"Default Changelist\" comment=\"new feature added-5\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_3_2023_3_33_PM__Default_Changelist_.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_3_2023_3_33_PM__Default_Changelist_.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/db/DBConnection.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/db/DBConnection.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/resources/view/BillAddForm.fxml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/resources/view/BillAddForm.fxml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/target/classes/db/DBConnection.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/target/classes/db/DBConnection.class\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"FxmlFile\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2NaC6xMBsBkMEyO2KYnIHKbPYiS\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"DatabaseDriversLRU\" value=\"mysql\" />\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"aspect.path.notification.shown\" value=\"true\" />\r\n    <property name=\"database.data.extractors.current.export.id\" value=\"SQL Inserts\" />\r\n    <property name=\"database.data.extractors.current.id\" value=\"SQL Inserts\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\r\n    <property name=\"node.js.detected.package.eslint\" value=\"true\" />\r\n    <property name=\"node.js.detected.package.tslint\" value=\"true\" />\r\n    <property name=\"node.js.selected.package.eslint\" value=\"(autodetect)\" />\r\n    <property name=\"node.js.selected.package.tslint\" value=\"(autodetect)\" />\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Application.AppInitializer\">\r\n    <configuration name=\"AppInitializer\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"AppInitializer\" />\r\n      <module name=\"petClinic\" />\r\n      <option name=\"VM_PARAMETERS\" value=\"--module-path &quot;C:\\Program Files\\Java\\openjfx-19.0.2.1_windows-x64_bin-sdk (1)\\javafx-sdk-19.0.2.1\\lib&quot; --add-modules javafx.controls,javafx.fxml\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"ArquillianJUnit\" factoryName=\"\" nameIsGenerated=\"true\">\r\n      <option name=\"arquillianRunConfiguration\">\r\n        <value>\r\n          <option name=\"containerStateName\" value=\"\" />\r\n        </value>\r\n      </option>\r\n      <option name=\"TEST_OBJECT\" value=\"class\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"item.sql\" type=\"DatabaseScript\" editBeforeRun=\"true\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <script-file value=\"71fc7706-5bd1-4d7c-b604-1ee4f51afa47/schema/vetcloud/table/item.sql\" />\r\n      <script-mode>FILE</script-mode>\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.AppInitializer\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"e734372e-659b-420d-85c9-37c6226b7340\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1679892644394</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1679892644394</updated>\r\n      <workItem from=\"1679892645927\" duration=\"9648000\" />\r\n      <workItem from=\"1679971513699\" duration=\"8960000\" />\r\n      <workItem from=\"1680214642235\" duration=\"65331000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"new features added\">\r\n      <created>1679897459305</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1679897459305</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"new features added-1\">\r\n      <created>1679897510880</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1679897510880</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"new feature added\">\r\n      <created>1680490972623</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680490972623</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"new feature added-2\">\r\n      <created>1680491009473</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680491009473</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"new feature added-3\">\r\n      <created>1680491085788</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680491085788</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"new feature added-4\">\r\n      <created>1680514853492</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680514853492</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"new feature added-5\">\r\n      <created>1680521136984</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680521136984</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"8\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"new features added\" />\r\n    <MESSAGE value=\"new features added-1\" />\r\n    <MESSAGE value=\"new feature added\" />\r\n    <MESSAGE value=\"new feature added-2\" />\r\n    <MESSAGE value=\"new feature added-3\" />\r\n    <MESSAGE value=\"new feature added-4\" />\r\n    <MESSAGE value=\"new feature added-5\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"new feature added-5\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -4,12 +4,17 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="e734372e-659b-420d-85c9-37c6226b7340" name="Default Changelist" comment="new feature added-5">
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_3_2023_3_33_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_3_2023_3_33_PM__Default_Changelist_.xml" afterDir="false" />
++    <list default="true" id="e734372e-659b-420d-85c9-37c6226b7340" name="Default Changelist" comment="new feature added-6">
++      <change afterPath="$PROJECT_DIR$/src/main/java/dto/tm/UserTM.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/db/DBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/db/DBConnection.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/BillAddForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/BillAddForm.fxml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/classes/db/DBConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db/DBConnection.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/Controllers/BillAddFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controllers/BillAddFormController.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/Controllers/UserViewFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controllers/UserViewFormController.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/model/UserModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/UserModel.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/resources/view/UserViewForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/UserViewForm.fxml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/Controllers/BillAddFormController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controllers/BillAddFormController.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/Controllers/UserViewFormController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controllers/UserViewFormController.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/model/UserModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/UserModel.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/view/BillAddForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/BillAddForm.fxml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -88,7 +93,7 @@
+       <updated>1679892644394</updated>
+       <workItem from="1679892645927" duration="9648000" />
+       <workItem from="1679971513699" duration="8960000" />
+-      <workItem from="1680214642235" duration="65331000" />
++      <workItem from="1680214642235" duration="68002000" />
+     </task>
+     <task id="LOCAL-00001" summary="new features added">
+       <created>1679897459305</created>
+@@ -139,7 +144,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1680521136984</updated>
+     </task>
+-    <option name="localTasksCounter" value="8" />
++    <task id="LOCAL-00008" summary="new feature added-6">
++      <created>1680523210540</created>
++      <option name="number" value="00008" />
++      <option name="presentableId" value="LOCAL-00008" />
++      <option name="project" value="LOCAL" />
++      <updated>1680523210540</updated>
++    </task>
++    <option name="localTasksCounter" value="9" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -153,6 +165,7 @@
+     <MESSAGE value="new feature added-3" />
+     <MESSAGE value="new feature added-4" />
+     <MESSAGE value="new feature added-5" />
+-    <option name="LAST_COMMIT_MESSAGE" value="new feature added-5" />
++    <MESSAGE value="new feature added-6" />
++    <option name="LAST_COMMIT_MESSAGE" value="new feature added-6" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: src/main/java/model/UserModel.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package model;\r\n\r\nimport db.DBConnection;\r\n\r\nimport java.sql.Connection;\r\nimport java.sql.ResultSet;\r\nimport java.sql.SQLException;\r\nimport java.util.ArrayList;\r\nimport java.util.List;\r\nimport java.util.Properties;\r\n\r\npublic class UserModel {\r\n    private static final String URL = \"jdbc:mysql://localhost:3306/VETCLOUD\";\r\n    private static final Properties props = new Properties();\r\n\r\n    static {\r\n        props.setProperty(\"user\", \"root\");\r\n        props.setProperty(\"password\", \"1234\");\r\n    }\r\n    public static List<String> loadUserID() throws SQLException {\r\n        Connection con = DBConnection.getInstance().getConnection();\r\n        ResultSet resultSet = con.createStatement().executeQuery(\"SELECT UserID FROM User\");\r\n\r\n        List<String> data = new ArrayList<>();\r\n\r\n        while (resultSet.next()) {\r\n            data.add(resultSet.getString(1));\r\n        }\r\n        return data;\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/model/UserModel.java b/src/main/java/model/UserModel.java
+--- a/src/main/java/model/UserModel.java	
++++ b/src/main/java/model/UserModel.java	
+@@ -1,6 +1,8 @@
+ package model;
+ 
+ import db.DBConnection;
++import dto.User;
++import util.CrudUtil;
+ 
+ import java.sql.Connection;
+ import java.sql.ResultSet;
+@@ -28,4 +30,21 @@
+         }
+         return data;
+     }
++
++    public static List<User> getAll() throws SQLException {
++        List<User> data = new ArrayList<>();
++
++        String sql = "SELECT * FROM User";
++        ResultSet resultSet = CrudUtil.execute(sql);
++
++        while (resultSet.next()) {
++            data.add(new User(
++                    resultSet.getString(1),
++                    resultSet.getString(2),
++                    resultSet.getString(3),
++                    resultSet.getString(4)
++            ));
++        }
++        return data;
++    }
+ }
+Index: src/main/java/Controllers/BillAddFormController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Controllers;\r\n\r\nimport db.DBConnection;\r\nimport dto.Customer;\r\nimport dto.Item;\r\nimport dto.tm.CartTM;\r\nimport javafx.collections.FXCollections;\r\nimport javafx.collections.ObservableList;\r\nimport javafx.event.ActionEvent;\r\nimport javafx.fxml.FXML;\r\nimport javafx.fxml.FXMLLoader;\r\nimport javafx.fxml.Initializable;\r\nimport javafx.scene.Cursor;\r\nimport javafx.scene.Scene;\r\nimport javafx.scene.control.*;\r\nimport javafx.scene.control.cell.PropertyValueFactory;\r\nimport javafx.scene.layout.AnchorPane;\r\nimport javafx.stage.Stage;\r\nimport model.CustomerModel;\r\nimport model.ItemModel;\r\n\r\nimport java.io.IOException;\r\nimport java.sql.*;\r\nimport java.time.LocalDate;\r\nimport java.time.LocalTime;\r\nimport java.util.List;\r\nimport java.util.Properties;\r\nimport java.util.ResourceBundle;\r\n\r\npublic class BillAddFormController implements Initializable {\r\n    private static final String URL = \"jdbc:mysql://localhost:3306/VETCLOUD\";\r\n    private static final Properties props = new Properties();\r\n\r\n    static {\r\n        props.setProperty(\"user\", \"root\");\r\n        props.setProperty(\"password\", \"1234\");\r\n    }\r\n\r\n    @FXML\r\n    private AnchorPane dashboardPane;\r\n\r\n    @FXML\r\n    private TextField txtID;\r\n\r\n    @FXML\r\n    private TextField txtDescription;\r\n\r\n\r\n    @FXML\r\n    private Label lblName;\r\n\r\n    @FXML\r\n    private Label lblDate;\r\n\r\n    @FXML\r\n    private Label lblTime;\r\n\r\n    @FXML\r\n    private Label lblTotal;\r\n\r\n    @FXML\r\n    private Label lblPrice;\r\n\r\n    @FXML\r\n    private ComboBox cmbCustomID;\r\n\r\n    @FXML\r\n    private ComboBox cmbItemID;\r\n\r\n    @FXML\r\n    private ComboBox cmbQuantity;\r\n\r\n    @FXML\r\n    private TableColumn<?, ?> colItemID;\r\n\r\n    @FXML\r\n    private TableColumn<?, ?> colItemName;\r\n\r\n    @FXML\r\n    private TableColumn<?, ?> colQuantity;\r\n\r\n    @FXML\r\n    private TableColumn<?, ?> colPrice;\r\n\r\n    @FXML\r\n    private Label lblContact;\r\n\r\n    @FXML\r\n    private Label lblEmail;\r\n\r\n    @FXML\r\n    private TableView<CartTM> tblOrder;\r\n\r\n    private ObservableList<CartTM> obList = FXCollections.observableArrayList();\r\n\r\n\r\n\r\n\r\n    @Override\r\n    public void initialize(java.net.URL url, ResourceBundle resourceBundle) {\r\n        loadCustID();\r\n        loadItemID();\r\n        loadQuantity();\r\n        setCellValueFactory();\r\n        setOrderDateTime();\r\n    }\r\n    public void petbtnOnAction(ActionEvent event) throws IOException {\r\n        Stage stage = (Stage) dashboardPane.getScene().getWindow();\r\n        stage.setScene(new Scene(FXMLLoader.load(getClass().getResource(\"../view/PetManagementForm.fxml\"))));\r\n        stage.setTitle(\"Item Form\");\r\n        stage.centerOnScreen();\r\n        stage.show();\r\n    }\r\n\r\n    public void customerbtnOnAction(ActionEvent event) throws IOException {\r\n        Stage stage = (Stage) dashboardPane.getScene().getWindow();\r\n        stage.setScene(new Scene(FXMLLoader.load(getClass().getResource(\"../view/CustomerManagementForm.fxml\"))));\r\n        stage.setTitle(\"Item Form\");\r\n        stage.centerOnScreen();\r\n        stage.show();\r\n    }\r\n\r\n    public void usersbtnOnAction(ActionEvent event) throws IOException {\r\n        Stage stage = (Stage) dashboardPane.getScene().getWindow();\r\n        stage.setScene(new Scene(FXMLLoader.load(getClass().getResource(\"../view/UserManagementForm.fxml\"))));\r\n        stage.setTitle(\"Item Form\");\r\n        stage.centerOnScreen();\r\n        stage.show();\r\n    }\r\n\r\n    public void employeebtnOnAction(ActionEvent event) throws IOException {\r\n        Stage stage = (Stage) dashboardPane.getScene().getWindow();\r\n        stage.setScene(new Scene(FXMLLoader.load(getClass().getResource(\"../view/EmployeeManagementForm.fxml\"))));\r\n        stage.setTitle(\"Item Form\");\r\n        stage.centerOnScreen();\r\n        stage.show();\r\n    }\r\n\r\n    public void suppliesbtnOnAction(ActionEvent event) throws IOException {\r\n        Stage stage = (Stage) dashboardPane.getScene().getWindow();\r\n        stage.setScene(new Scene(FXMLLoader.load(getClass().getResource(\"../view/SupplieManagementForm.fxml\"))));\r\n        stage.setTitle(\"Item Form\");\r\n        stage.centerOnScreen();\r\n        stage.show();\r\n    }\r\n\r\n    public void billingbtnOnAction(ActionEvent event) throws IOException {\r\n        Stage stage = (Stage) dashboardPane.getScene().getWindow();\r\n        stage.setScene(new Scene(FXMLLoader.load(getClass().getResource(\"../view/BillingManagementForm.fxml\"))));\r\n        stage.setTitle(\"Item Form\");\r\n        stage.centerOnScreen();\r\n        stage.show();\r\n    }\r\n\r\n    public void inhousebtnOnAction(ActionEvent event) throws IOException {\r\n        Stage stage = (Stage) dashboardPane.getScene().getWindow();\r\n        stage.setScene(new Scene(FXMLLoader.load(getClass().getResource(\"../view/InhouseManagementForm.fxml\"))));\r\n        stage.setTitle(\"Item Form\");\r\n        stage.centerOnScreen();\r\n        stage.show();\r\n    }\r\n\r\n    public void logoutbtnOnAction(ActionEvent event) throws IOException {\r\n        Stage stage = (Stage) dashboardPane.getScene().getWindow();\r\n        stage.setScene(new Scene(FXMLLoader.load(getClass().getResource(\"../view/LoginForm.fxml\"))));\r\n        stage.setTitle(\"Item Form\");\r\n        stage.centerOnScreen();\r\n        stage.show();\r\n    }\r\n\r\n    private void setOrderDateTime() {\r\n        lblDate.setText(String.valueOf(LocalDate.now()));\r\n        lblTime.setText(String.valueOf(LocalTime.now()));\r\n    }\r\n\r\n\r\n    void setCellValueFactory() {\r\n        colItemID.setCellValueFactory(new PropertyValueFactory<>(\"ItemID\"));\r\n        colItemName.setCellValueFactory(new PropertyValueFactory<>(\"Name\"));\r\n        colQuantity.setCellValueFactory(new PropertyValueFactory<>(\"Quantity\"));\r\n        colPrice.setCellValueFactory(new PropertyValueFactory<>(\"Price\"));\r\n\r\n    }\r\n\r\n    private void loadQuantity() {\r\n        ObservableList<Integer> obList = FXCollections.observableArrayList();\r\n        int num[]=new int[100];\r\n        for (int i = 1; i <=100 ; i++) {\r\n            num[i-1]=i;\r\n        }\r\n        for (int number:num) {\r\n            obList.add(number);\r\n        }\r\n        cmbQuantity.setItems(obList);\r\n\r\n    }\r\n\r\n    private void loadCustID() {\r\n        try {\r\n            ObservableList<String> obList = FXCollections.observableArrayList();\r\n            List<String> codes = CustomerModel.loadCustomerID();\r\n\r\n            for (String code : codes) {\r\n                obList.add(code);\r\n            }\r\n            cmbCustomID.setItems(obList);\r\n        } catch (SQLException e) {\r\n            e.printStackTrace();\r\n            new Alert(Alert.AlertType.ERROR, \"SQL Error!\").show();\r\n        }\r\n\r\n    }\r\n\r\n    private void loadItemID() {\r\n        try {\r\n            ObservableList<String> obList = FXCollections.observableArrayList();\r\n            List<String> codes = ItemModel.loadItemID();\r\n\r\n            for (String code : codes) {\r\n                obList.add(code);\r\n            }\r\n            cmbItemID.setItems(obList);\r\n        } catch (SQLException e) {\r\n            e.printStackTrace();\r\n            new Alert(Alert.AlertType.ERROR, \"SQL Error!\").show();\r\n        }\r\n\r\n    }\r\n\r\n    public void savebtnOnAction(ActionEvent event) throws SQLException {\r\n        cmbCustomerOnAction(event);\r\n        String BillID=txtID.getText();\r\n        String CustomerID= (String) cmbCustomID.getValue();\r\n        LocalDate Date= LocalDate.parse(lblDate.getText());\r\n        LocalTime Time= LocalTime.parse(lblTime.getText());\r\n        double Amount= Double.parseDouble(lblTotal.getText());\r\n        String contact=lblContact.getText();\r\n        String email=lblEmail.getText();\r\n        String Description=txtDescription.getText();\r\n\r\n        try (Connection con = DriverManager.getConnection(URL, props)) {\r\n            String sql = \"INSERT INTO Bill(BillID,CustomerID,Date,Time,Amount,contact,email,Description)\" +\r\n                    \"VALUES(?, ?, ?, ?,?,?,?,?)\";\r\n            PreparedStatement pstm = con.prepareStatement(sql);\r\n            pstm.setString(1,BillID);\r\n            pstm.setString(2, CustomerID);\r\n            pstm.setDate(3, java.sql.Date.valueOf(Date));\r\n            pstm.setTime(4, java.sql.Time.valueOf(Time));\r\n            pstm.setDouble(5,Amount);\r\n            pstm.setString(6,contact);\r\n            pstm.setString(7,email);\r\n            pstm.setString(8,Description);\r\n\r\n\r\n            int affectedRows = pstm.executeUpdate();\r\n            if (affectedRows > 0) {\r\n                new Alert(Alert.AlertType.CONFIRMATION,\r\n                        \"huree!! customer added :)\")\r\n                        .show();\r\n            }\r\n\r\n        }\r\n\r\n\r\n    }\r\n\r\n    private void fillItemFields(Item item) {\r\n        lblPrice.setText(String.valueOf(item.getPrice()));\r\n        lblName.setText(String.valueOf(item.getName()));\r\n    }\r\n    @FXML\r\n    public void selectbtnOnAction(ActionEvent event) {\r\n\r\n        String ItemID = (String) cmbItemID.getValue();\r\n        String Name=lblName.getText();\r\n        int Quantity = (int) cmbQuantity.getValue();\r\n        double Price=Double.parseDouble(lblPrice.getText());\r\n\r\n        CartTM tm = new CartTM(ItemID, Name, Quantity, Price);\r\n\r\n        obList.add(tm);\r\n        tblOrder.setItems(obList);\r\n        //calculateNetTotal();\r\n        double netTotal = 0.0;\r\n        for (int i = 0; i < tblOrder.getItems().size(); i++) {\r\n            double total = Quantity*Price;\r\n            netTotal += total;\r\n        }\r\n        lblTotal.setText(String.valueOf(netTotal));\r\n\r\n    }\r\n\r\n\r\n\r\n    public void backbtnOnAction(ActionEvent event) throws IOException {\r\n        Stage stage = (Stage) dashboardPane.getScene().getWindow();\r\n        stage.setScene(new Scene(FXMLLoader.load(getClass().getResource(\"../view/BillingManagementForm.fxml\"))));\r\n        stage.setTitle(\"Item Form\");\r\n        stage.centerOnScreen();\r\n        stage.show();\r\n    }\r\n\r\n    public void cmbItemOnAction(ActionEvent event) {\r\n        String ID = (String) cmbItemID.getValue();\r\n        try {\r\n            Item item = ItemModel.searchById(ID);\r\n            fillItemFields(item);\r\n\r\n           // txtQty.requestFocus();\r\n        } catch (SQLException e) {\r\n            e.printStackTrace();\r\n            new Alert(Alert.AlertType.ERROR, \"SQL Error!\").show();\r\n        }\r\n    }\r\n\r\n    private void fillCustomerFields(Customer customer) {\r\n        lblContact.setText(String.valueOf(customer.getContact()));\r\n        lblEmail.setText(String.valueOf(customer.getEmail()));\r\n    }\r\n\r\n    public void cmbCustomerOnAction(ActionEvent event) {\r\n        String ID = (String) cmbCustomID.getValue();\r\n        try {\r\n             Customer customer = CustomerModel.searchById(ID);\r\n             fillCustomerFields(customer);\r\n\r\n            // txtQty.requestFocus();\r\n        } catch (SQLException e) {\r\n            e.printStackTrace();\r\n            new Alert(Alert.AlertType.ERROR, \"SQL Error!\").show();\r\n        }\r\n    }\r\n\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/Controllers/BillAddFormController.java b/src/main/java/Controllers/BillAddFormController.java
+--- a/src/main/java/Controllers/BillAddFormController.java	
++++ b/src/main/java/Controllers/BillAddFormController.java	
+@@ -93,9 +93,6 @@
+ 
+     private ObservableList<CartTM> obList = FXCollections.observableArrayList();
+ 
+-
+-
+-
+     @Override
+     public void initialize(java.net.URL url, ResourceBundle resourceBundle) {
+         loadCustID();
+@@ -227,6 +224,7 @@
+ 
+     }
+ 
++
+     public void savebtnOnAction(ActionEvent event) throws SQLException {
+         cmbCustomerOnAction(event);
+         String BillID=txtID.getText();
+Index: src/main/java/Controllers/UserViewFormController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Controllers;\r\n\r\nimport javafx.event.ActionEvent;\r\nimport javafx.fxml.FXMLLoader;\r\nimport javafx.scene.Scene;\r\nimport javafx.scene.layout.AnchorPane;\r\nimport javafx.stage.Stage;\r\n\r\nimport java.io.IOException;\r\n\r\npublic class UserViewFormController {\r\n    public AnchorPane dashboardPane;\r\n    public void petbtnOnAction(ActionEvent event) throws IOException {\r\n        Stage stage = (Stage) dashboardPane.getScene().getWindow();\r\n        stage.setScene(new Scene(FXMLLoader.load(getClass().getResource(\"../view/PetManagementForm.fxml\"))));\r\n        stage.setTitle(\"Item Form\");\r\n        stage.centerOnScreen();\r\n        stage.show();\r\n    }\r\n\r\n    public void customerbtnOnAction(ActionEvent event) throws IOException {\r\n        Stage stage = (Stage) dashboardPane.getScene().getWindow();\r\n        stage.setScene(new Scene(FXMLLoader.load(getClass().getResource(\"../view/CustomerManagementForm.fxml\"))));\r\n        stage.setTitle(\"Item Form\");\r\n        stage.centerOnScreen();\r\n        stage.show();\r\n    }\r\n\r\n    public void usersbtnOnAction(ActionEvent event) throws IOException {\r\n        Stage stage = (Stage) dashboardPane.getScene().getWindow();\r\n        stage.setScene(new Scene(FXMLLoader.load(getClass().getResource(\"../view/UserManagementForm.fxml\"))));\r\n        stage.setTitle(\"Item Form\");\r\n        stage.centerOnScreen();\r\n        stage.show();\r\n    }\r\n\r\n    public void employeebtnOnAction(ActionEvent event) throws IOException {\r\n        Stage stage = (Stage) dashboardPane.getScene().getWindow();\r\n        stage.setScene(new Scene(FXMLLoader.load(getClass().getResource(\"../view/EmployeeManagementForm.fxml\"))));\r\n        stage.setTitle(\"Item Form\");\r\n        stage.centerOnScreen();\r\n        stage.show();\r\n    }\r\n\r\n    public void suppliesbtnOnAction(ActionEvent event) throws IOException {\r\n        Stage stage = (Stage) dashboardPane.getScene().getWindow();\r\n        stage.setScene(new Scene(FXMLLoader.load(getClass().getResource(\"../view/SupplieManagementForm.fxml\"))));\r\n        stage.setTitle(\"Item Form\");\r\n        stage.centerOnScreen();\r\n        stage.show();\r\n    }\r\n\r\n    public void billingbtnOnAction(ActionEvent event) throws IOException {\r\n        Stage stage = (Stage) dashboardPane.getScene().getWindow();\r\n        stage.setScene(new Scene(FXMLLoader.load(getClass().getResource(\"../view/BillingManagementForm.fxml\"))));\r\n        stage.setTitle(\"Item Form\");\r\n        stage.centerOnScreen();\r\n        stage.show();\r\n    }\r\n\r\n    public void inhousebtnOnAction(ActionEvent event) throws IOException {\r\n        Stage stage = (Stage) dashboardPane.getScene().getWindow();\r\n        stage.setScene(new Scene(FXMLLoader.load(getClass().getResource(\"../view/InhouseManagementForm.fxml\"))));\r\n        stage.setTitle(\"Item Form\");\r\n        stage.centerOnScreen();\r\n        stage.show();\r\n    }\r\n\r\n    public void logoutbtnOnAction(ActionEvent event) throws IOException {\r\n        Stage stage = (Stage) dashboardPane.getScene().getWindow();\r\n        stage.setScene(new Scene(FXMLLoader.load(getClass().getResource(\"../view/LoginForm.fxml\"))));\r\n        stage.setTitle(\"Item Form\");\r\n        stage.centerOnScreen();\r\n        stage.show();\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/Controllers/UserViewFormController.java b/src/main/java/Controllers/UserViewFormController.java
+--- a/src/main/java/Controllers/UserViewFormController.java	
++++ b/src/main/java/Controllers/UserViewFormController.java	
+@@ -1,15 +1,62 @@
+ package Controllers;
+ 
++import dto.User;
++import dto.tm.CartTM;
++import dto.tm.UserTM;
++import javafx.collections.FXCollections;
++import javafx.collections.ObservableList;
+ import javafx.event.ActionEvent;
++import javafx.fxml.FXML;
+ import javafx.fxml.FXMLLoader;
++import javafx.fxml.Initializable;
+ import javafx.scene.Scene;
++import javafx.scene.control.*;
++import javafx.scene.control.cell.PropertyValueFactory;
+ import javafx.scene.layout.AnchorPane;
+ import javafx.stage.Stage;
++import model.UserModel;
+ 
+ import java.io.IOException;
++import java.sql.SQLException;
++import java.util.List;
++import java.util.Properties;
++import java.util.ResourceBundle;
++
++public class UserViewFormController implements Initializable {
++    private static final String URL = "jdbc:mysql://localhost:3306/VETCLOUD";
++    private static final Properties props = new Properties();
++
++    static {
++        props.setProperty("user", "root");
++        props.setProperty("password", "1234");
++    }
++
++    @FXML
++    private AnchorPane dashboardPane;
++
++    @FXML
++    private TableColumn<?, ?> colID;
++
++    @FXML
++    private TableColumn<?, ?> colName;
++
++    @FXML
++    private TableColumn<?, ?> colPassword;
+ 
+-public class UserViewFormController {
+-    public AnchorPane dashboardPane;
++    @FXML
++    private TableColumn<?, ?> colEmail;
++
++    @FXML
++    private TableView<UserTM> tblUser;
++
++    private ObservableList<UserTM> obList = FXCollections.observableArrayList();
++
++    @Override
++    public void initialize(java.net.URL url, ResourceBundle resourceBundle) {
++        setCellValueFactory();
++        getAll();
++    }
++
+     public void petbtnOnAction(ActionEvent event) throws IOException {
+         Stage stage = (Stage) dashboardPane.getScene().getWindow();
+         stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("../view/PetManagementForm.fxml"))));
+@@ -73,4 +120,31 @@
+         stage.centerOnScreen();
+         stage.show();
+     }
++    void setCellValueFactory() {
++        colID.setCellValueFactory(new PropertyValueFactory<>("UserID"));
++        colName.setCellValueFactory(new PropertyValueFactory<>("UserName"));
++        colPassword.setCellValueFactory(new PropertyValueFactory<>("Password"));
++        colEmail.setCellValueFactory(new PropertyValueFactory<>("Email"));
++    }
++
++    private void getAll() {
++        try {
++            ObservableList<UserTM> obList = FXCollections.observableArrayList();
++            List<User> userList = UserModel.getAll();
++
++            for (User user : userList) {
++                obList.add(new UserTM(
++                        user.getUserID(),
++                        user.getUserName(),
++                        user.getPassword(),
++                        user.getEmail()
++                ));
++            }
++            tblUser.setItems(obList);
++        } catch (SQLException e) {
++            e.printStackTrace();
++            new Alert(Alert.AlertType.ERROR, "SQL Error!").show();
++        }
++    }
++
+ }
+Index: src/main/java/dto/tm/UserTM.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/dto/tm/UserTM.java b/src/main/java/dto/tm/UserTM.java
+new file mode 100644
+--- /dev/null	
++++ b/src/main/java/dto/tm/UserTM.java	
+@@ -0,0 +1,16 @@
++package dto.tm;
++
++import lombok.*;
++
++@NoArgsConstructor
++@AllArgsConstructor
++@Getter
++@Setter
++@ToString
++
++public class UserTM {
++    private String UserID;
++    private String UserName;
++    private String Password;
++    private String Email;
++}
+Index: target/classes/view/BillAddForm.fxml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n\r\n<?import javafx.geometry.Rectangle2D?>\r\n<?import javafx.scene.control.Button?>\r\n<?import javafx.scene.control.ComboBox?>\r\n<?import javafx.scene.control.DatePicker?>\r\n<?import javafx.scene.control.Label?>\r\n<?import javafx.scene.control.TextField?>\r\n<?import javafx.scene.image.Image?>\r\n<?import javafx.scene.image.ImageView?>\r\n<?import javafx.scene.layout.AnchorPane?>\r\n<?import javafx.scene.paint.LinearGradient?>\r\n<?import javafx.scene.paint.RadialGradient?>\r\n<?import javafx.scene.paint.Stop?>\r\n<?import javafx.scene.text.Font?>\r\n\r\n<AnchorPane fx:id=\"dashboardPane\" prefHeight=\"525.0\" prefWidth=\"776.0\" xmlns=\"http://javafx.com/javafx/19\" xmlns:fx=\"http://javafx.com/fxml/1\" fx:controller=\"Controllers.BillAddFormController\">\r\n   <children>\r\n      <Label layoutX=\"360.0\" layoutY=\"14.0\" prefHeight=\"32.0\" prefWidth=\"238.0\" style=\"-fx-background-color: #00695c;\" text=\"            ADD BILLS\">\r\n         <font>\r\n            <Font name=\"System Bold\" size=\"21.0\" />\r\n         </font>\r\n         <textFill>\r\n            <RadialGradient centerX=\"0.5\" centerY=\"0.5\" radius=\"0.5\">\r\n               <stops>\r\n                  <Stop color=\"#cdbaba\" />\r\n                  <Stop color=\"WHITE\" offset=\"1.0\" />\r\n               </stops>\r\n            </RadialGradient>\r\n         </textFill>\r\n      </Label>\r\n      <Label layoutX=\"207.0\" layoutY=\"128.0\" prefHeight=\"20.0\" prefWidth=\"100.0\" text=\" Customer_ID :\">\r\n         <font>\r\n            <Font size=\"14.0\" />\r\n         </font>\r\n      </Label>\r\n      <Label layoutX=\"212.0\" layoutY=\"234.0\" prefHeight=\"19.0\" prefWidth=\"53.0\" text=\"Time :\">\r\n         <font>\r\n            <Font size=\"13.0\" />\r\n         </font>\r\n      </Label>\r\n      <Label layoutX=\"210.0\" layoutY=\"263.0\" prefHeight=\"19.0\" prefWidth=\"53.0\" text=\"Amount :\">\r\n         <font>\r\n            <Font size=\"13.0\" />\r\n         </font>\r\n      </Label>\r\n      <Label layoutX=\"212.0\" layoutY=\"95.0\" prefHeight=\"20.0\" prefWidth=\"81.0\" text=\"Bill_ID :\">\r\n         <font>\r\n            <Font size=\"13.0\" />\r\n         </font>\r\n      </Label>\r\n      <Label layoutX=\"209.0\" layoutY=\"298.0\" prefHeight=\"19.0\" prefWidth=\"72.0\" text=\"Contact :\">\r\n         <font>\r\n            <Font size=\"13.0\" />\r\n         </font>\r\n      </Label>\r\n      <Label layoutX=\"212.0\" layoutY=\"373.0\" prefHeight=\"19.0\" prefWidth=\"81.0\" text=\"Description :\">\r\n         <font>\r\n            <Font size=\"13.0\" />\r\n         </font>\r\n      </Label>\r\n      <Button fx:id=\"btnSave\" layoutX=\"573.0\" layoutY=\"419.0\" mnemonicParsing=\"false\" onAction=\"#savebtnOnAction\" prefHeight=\"32.0\" prefWidth=\"81.0\" style=\"-fx-background-color: #00695c;\" text=\"Save\">\r\n         <font>\r\n            <Font name=\"System Bold\" size=\"15.0\" />\r\n         </font>\r\n      </Button>\r\n      <TextField layoutX=\"314.0\" layoutY=\"92.0\" />\r\n      <TextField layoutX=\"286.0\" layoutY=\"295.0\" />\r\n      <TextField layoutX=\"263.0\" layoutY=\"231.0\" prefHeight=\"25.0\" prefWidth=\"149.0\" />\r\n      <TextField layoutX=\"305.0\" layoutY=\"370.0\" prefHeight=\"25.0\" prefWidth=\"348.0\" />\r\n      <Label layoutX=\"212.0\" layoutY=\"165.0\" prefHeight=\"20.0\" prefWidth=\"65.0\" text=\"Name :\">\r\n         <font>\r\n            <Font size=\"14.0\" />\r\n         </font>\r\n      </Label>\r\n      <Label layoutX=\"212.0\" layoutY=\"198.0\" prefHeight=\"20.0\" prefWidth=\"53.0\" text=\"Date :\">\r\n         <font>\r\n            <Font size=\"14.0\" />\r\n         </font>\r\n      </Label>\r\n      <DatePicker layoutX=\"267.0\" layoutY=\"196.0\" />\r\n      <AnchorPane prefHeight=\"528.0\" prefWidth=\"200.0\" style=\"-fx-background-color: #00695c;\">\r\n         <children>\r\n            <Label layoutX=\"17.0\" layoutY=\"10.0\" prefHeight=\"46.0\" prefWidth=\"166.0\" text=\"VETCLOUD\">\r\n               <font>\r\n                  <Font name=\"System Bold\" size=\"31.0\" />\r\n               </font>\r\n               <textFill>\r\n                  <LinearGradient endX=\"1.0\" endY=\"1.0\">\r\n                     <stops>\r\n                        <Stop color=\"BLACK\" />\r\n                        <Stop color=\"#8daea4\" offset=\"0.42528735632183884\" />\r\n                        <Stop color=\"#082c23\" offset=\"1.0\" />\r\n                     </stops>\r\n                  </LinearGradient>\r\n               </textFill>\r\n            </Label>\r\n            <Button fx:id=\"btnPets\" layoutX=\"87.0\" layoutY=\"82.0\" mnemonicParsing=\"false\" onAction=\"#petbtnOnAction\" prefHeight=\"30.0\" prefWidth=\"65.0\" style=\"-fx-background-color: #00695c;\" text=\"PETS\" textFill=\"WHITE\">\r\n               <font>\r\n                  <Font name=\"System Bold\" size=\"14.0\" />\r\n               </font>\r\n            </Button>\r\n            <Button fx:id=\"btnCustomer\" layoutX=\"87.0\" layoutY=\"144.0\" mnemonicParsing=\"false\" onAction=\"#customerbtnOnAction\" prefHeight=\"30.0\" prefWidth=\"110.0\" style=\"-fx-background-color: #00695c;\" text=\"CUSTOMERS\" textFill=\"WHITE\">\r\n               <font>\r\n                  <Font name=\"System Bold\" size=\"14.0\" />\r\n               </font>\r\n            </Button>\r\n            <Button fx:id=\"btnEmployees\" layoutX=\"84.0\" layoutY=\"255.0\" mnemonicParsing=\"false\" onAction=\"#employeebtnOnAction\" prefHeight=\"30.0\" prefWidth=\"110.0\" style=\"-fx-background-color: #00695c;\" text=\"EMPLOYEES\" textFill=\"WHITE\">\r\n               <font>\r\n                  <Font name=\"System Bold\" size=\"14.0\" />\r\n               </font>\r\n            </Button>\r\n            <Button fx:id=\"btnSupplies\" layoutX=\"75.0\" layoutY=\"307.0\" mnemonicParsing=\"false\" onAction=\"#suppliesbtnOnAction\" prefHeight=\"30.0\" prefWidth=\"110.0\" style=\"-fx-background-color: #00695c;\" text=\"SUPPLIES\" textFill=\"WHITE\">\r\n               <font>\r\n                  <Font name=\"System Bold\" size=\"14.0\" />\r\n               </font>\r\n            </Button>\r\n            <Button fx:id=\"btnBilling\" layoutX=\"80.0\" layoutY=\"358.0\" mnemonicParsing=\"false\" onAction=\"#billingbtnOnAction\" prefHeight=\"30.0\" prefWidth=\"94.0\" style=\"-fx-background-color: #00695c;\" text=\"BILLING\" textFill=\"WHITE\">\r\n               <font>\r\n                  <Font name=\"System Bold\" size=\"14.0\" />\r\n               </font>\r\n            </Button>\r\n            <Button fx:id=\"btnInhouse\" layoutX=\"72.0\" layoutY=\"411.0\" mnemonicParsing=\"false\" onAction=\"#inhousebtnOnAction\" prefHeight=\"30.0\" prefWidth=\"123.0\" style=\"-fx-background-color: #00695c;\" text=\"IN-HOUSE\" textFill=\"WHITE\">\r\n               <font>\r\n                  <Font name=\"System Bold\" size=\"14.0\" />\r\n               </font>\r\n            </Button>\r\n            <Button fx:id=\"btnLogout\" layoutX=\"88.0\" layoutY=\"468.0\" mnemonicParsing=\"false\" onAction=\"#logoutbtnOnAction\" prefHeight=\"30.0\" prefWidth=\"94.0\" style=\"-fx-background-color: #00695c;\" text=\"LOGOUT\" textFill=\"WHITE\">\r\n               <font>\r\n                  <Font name=\"System Bold\" size=\"14.0\" />\r\n               </font>\r\n            </Button>\r\n            <Button fx:id=\"btnUsers\" layoutX=\"83.0\" layoutY=\"197.0\" mnemonicParsing=\"false\" onAction=\"#usersbtnOnAction\" prefHeight=\"30.0\" prefWidth=\"79.0\" style=\"-fx-background-color: #00695c;\" text=\"USERS\" textFill=\"WHITE\">\r\n               <font>\r\n                  <Font name=\"System Bold\" size=\"14.0\" />\r\n               </font>\r\n            </Button>\r\n            <ImageView fitHeight=\"41.0\" fitWidth=\"41.0\" layoutX=\"32.0\" layoutY=\"74.0\">\r\n               <image>\r\n                  <Image url=\"@../img/clipart387321.png\" />\r\n               </image>\r\n            </ImageView>\r\n            <ImageView fitHeight=\"41.0\" fitWidth=\"41.0\" layoutX=\"32.0\" layoutY=\"133.0\">\r\n               <image>\r\n                  <Image url=\"@../img/fghfgh.png\" />\r\n               </image>\r\n            </ImageView>\r\n            <ImageView fitHeight=\"41.0\" fitWidth=\"41.0\" layoutX=\"32.0\" layoutY=\"192.0\">\r\n               <image>\r\n                  <Image url=\"@../img/fghfgh.png\" />\r\n               </image>\r\n            </ImageView>\r\n            <ImageView fitHeight=\"41.0\" fitWidth=\"41.0\" layoutX=\"32.0\" layoutY=\"242.0\">\r\n               <image>\r\n                  <Image url=\"@../img/clipart61323.png\" />\r\n               </image>\r\n            </ImageView>\r\n            <ImageView fitHeight=\"41.0\" fitWidth=\"41.0\" layoutX=\"32.0\" layoutY=\"353.0\">\r\n               <image>\r\n                  <Image url=\"@../img/clipart395457.png\" />\r\n               </image>\r\n            </ImageView>\r\n            <ImageView fitHeight=\"41.0\" fitWidth=\"41.0\" layoutX=\"29.0\" layoutY=\"274.0\">\r\n               <image>\r\n                  <Image url=\"@../img/clipart722574.png\" />\r\n               </image>\r\n               <viewport>\r\n                  <Rectangle2D height=\"41.0\" width=\"41.0\" />\r\n               </viewport>\r\n            </ImageView>\r\n            <ImageView fitHeight=\"41.0\" fitWidth=\"41.0\" layoutX=\"32.0\" layoutY=\"406.0\">\r\n               <image>\r\n                  <Image url=\"@../img/clipart722574.png\" />\r\n               </image>\r\n            </ImageView>\r\n            <ImageView fitHeight=\"30.0\" fitWidth=\"34.0\" layoutX=\"36.0\" layoutY=\"468.0\">\r\n               <image>\r\n                  <Image url=\"@../img/clipart2257855.png\" />\r\n               </image>\r\n            </ImageView>\r\n            <ImageView fitHeight=\"41.0\" fitWidth=\"41.0\" layoutX=\"33.0\" layoutY=\"302.0\">\r\n               <image>\r\n                  <Image url=\"@../img/clipart281332.png\" />\r\n               </image>\r\n            </ImageView>\r\n         </children>\r\n      </AnchorPane>\r\n      <ComboBox layoutX=\"314.0\" layoutY=\"126.0\" prefHeight=\"25.0\" prefWidth=\"150.0\" />\r\n      <TextField layoutX=\"270.0\" layoutY=\"163.0\" prefHeight=\"25.0\" prefWidth=\"303.0\" />\r\n      <TextField layoutX=\"280.0\" layoutY=\"260.0\" prefHeight=\"25.0\" prefWidth=\"149.0\" />\r\n      <Label layoutX=\"209.0\" layoutY=\"336.0\" prefHeight=\"19.0\" prefWidth=\"72.0\" text=\"Email :\">\r\n         <font>\r\n            <Font size=\"13.0\" />\r\n         </font>\r\n      </Label>\r\n      <TextField layoutX=\"263.0\" layoutY=\"333.0\" prefHeight=\"25.0\" prefWidth=\"333.0\" />\r\n   </children>\r\n</AnchorPane>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/target/classes/view/BillAddForm.fxml b/target/classes/view/BillAddForm.fxml
+--- a/target/classes/view/BillAddForm.fxml	
++++ b/target/classes/view/BillAddForm.fxml	
+@@ -1,22 +1,19 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ 
+-<?import javafx.geometry.Rectangle2D?>
+ <?import javafx.scene.control.Button?>
+ <?import javafx.scene.control.ComboBox?>
+-<?import javafx.scene.control.DatePicker?>
+ <?import javafx.scene.control.Label?>
++<?import javafx.scene.control.TableColumn?>
++<?import javafx.scene.control.TableView?>
+ <?import javafx.scene.control.TextField?>
+-<?import javafx.scene.image.Image?>
+-<?import javafx.scene.image.ImageView?>
+ <?import javafx.scene.layout.AnchorPane?>
+-<?import javafx.scene.paint.LinearGradient?>
+ <?import javafx.scene.paint.RadialGradient?>
+ <?import javafx.scene.paint.Stop?>
+ <?import javafx.scene.text.Font?>
+ 
+-<AnchorPane fx:id="dashboardPane" prefHeight="525.0" prefWidth="776.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.BillAddFormController">
++<AnchorPane fx:id="dashboardPane" prefHeight="594.0" prefWidth="776.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.BillAddFormController">
+    <children>
+-      <Label layoutX="360.0" layoutY="14.0" prefHeight="32.0" prefWidth="238.0" style="-fx-background-color: #00695c;" text="            ADD BILLS">
++      <Label layoutX="290.0" layoutY="14.0" prefHeight="32.0" prefWidth="238.0" style="-fx-background-color: #00695c;" text="            ADD BILLS">
+          <font>
+             <Font name="System Bold" size="21.0" />
+          </font>
+@@ -29,170 +26,104 @@
+             </RadialGradient>
+          </textFill>
+       </Label>
+-      <Label layoutX="207.0" layoutY="128.0" prefHeight="20.0" prefWidth="100.0" text=" Customer_ID :">
+-         <font>
+-            <Font size="14.0" />
+-         </font>
+-      </Label>
+-      <Label layoutX="212.0" layoutY="234.0" prefHeight="19.0" prefWidth="53.0" text="Time :">
++      <Label layoutX="369.0" layoutY="83.0" prefHeight="21.0" prefWidth="108.0" text=" Customer_ID :">
+          <font>
+-            <Font size="13.0" />
+-         </font>
+-      </Label>
+-      <Label layoutX="210.0" layoutY="263.0" prefHeight="19.0" prefWidth="53.0" text="Amount :">
+-         <font>
+-            <Font size="13.0" />
+-         </font>
+-      </Label>
+-      <Label layoutX="212.0" layoutY="95.0" prefHeight="20.0" prefWidth="81.0" text="Bill_ID :">
+-         <font>
+-            <Font size="13.0" />
++            <Font name="System Bold" size="15.0" />
+          </font>
+       </Label>
+-      <Label layoutX="209.0" layoutY="298.0" prefHeight="19.0" prefWidth="72.0" text="Contact :">
++      <Label layoutX="30.0" layoutY="226.0" prefHeight="19.0" prefWidth="53.0" text="Time :">
+          <font>
+-            <Font size="13.0" />
++            <Font name="System Bold" size="15.0" />
+          </font>
+       </Label>
+-      <Label layoutX="212.0" layoutY="373.0" prefHeight="19.0" prefWidth="81.0" text="Description :">
++      <Label layoutX="31.0" layoutY="82.0" prefHeight="20.0" prefWidth="81.0" text="Bill_ID :">
+          <font>
+-            <Font size="13.0" />
++            <Font name="System Bold" size="15.0" />
+          </font>
+       </Label>
+-      <Button fx:id="btnSave" layoutX="573.0" layoutY="419.0" mnemonicParsing="false" onAction="#savebtnOnAction" prefHeight="32.0" prefWidth="81.0" style="-fx-background-color: #00695c;" text="Save">
++      <Button fx:id="btnSave" layoutX="656.0" layoutY="537.0" mnemonicParsing="false" onAction="#savebtnOnAction" prefHeight="32.0" prefWidth="81.0" style="-fx-background-color: #00695c;" text="Save">
+          <font>
+             <Font name="System Bold" size="15.0" />
+          </font>
+       </Button>
+-      <TextField layoutX="314.0" layoutY="92.0" />
+-      <TextField layoutX="286.0" layoutY="295.0" />
+-      <TextField layoutX="263.0" layoutY="231.0" prefHeight="25.0" prefWidth="149.0" />
+-      <TextField layoutX="305.0" layoutY="370.0" prefHeight="25.0" prefWidth="348.0" />
+-      <Label layoutX="212.0" layoutY="165.0" prefHeight="20.0" prefWidth="65.0" text="Name :">
++      <TextField fx:id="txtID" layoutX="104.0" layoutY="81.0" />
++      <Label layoutX="24.0" layoutY="181.0" prefHeight="20.0" prefWidth="65.0" text="  Name :">
+          <font>
+-            <Font size="14.0" />
++            <Font name="System Bold" size="15.0" />
+          </font>
+       </Label>
+-      <Label layoutX="212.0" layoutY="198.0" prefHeight="20.0" prefWidth="53.0" text="Date :">
++      <Label layoutX="227.0" layoutY="226.0" prefHeight="20.0" prefWidth="53.0" text=" Date :">
+          <font>
+-            <Font size="14.0" />
++            <Font name="System Bold" size="15.0" />
+          </font>
+       </Label>
+-      <DatePicker layoutX="267.0" layoutY="196.0" />
+-      <AnchorPane prefHeight="528.0" prefWidth="200.0" style="-fx-background-color: #00695c;">
+-         <children>
+-            <Label layoutX="17.0" layoutY="10.0" prefHeight="46.0" prefWidth="166.0" text="VETCLOUD">
+-               <font>
+-                  <Font name="System Bold" size="31.0" />
+-               </font>
+-               <textFill>
+-                  <LinearGradient endX="1.0" endY="1.0">
+-                     <stops>
+-                        <Stop color="BLACK" />
+-                        <Stop color="#8daea4" offset="0.42528735632183884" />
+-                        <Stop color="#082c23" offset="1.0" />
+-                     </stops>
+-                  </LinearGradient>
+-               </textFill>
+-            </Label>
+-            <Button fx:id="btnPets" layoutX="87.0" layoutY="82.0" mnemonicParsing="false" onAction="#petbtnOnAction" prefHeight="30.0" prefWidth="65.0" style="-fx-background-color: #00695c;" text="PETS" textFill="WHITE">
+-               <font>
+-                  <Font name="System Bold" size="14.0" />
+-               </font>
+-            </Button>
+-            <Button fx:id="btnCustomer" layoutX="87.0" layoutY="144.0" mnemonicParsing="false" onAction="#customerbtnOnAction" prefHeight="30.0" prefWidth="110.0" style="-fx-background-color: #00695c;" text="CUSTOMERS" textFill="WHITE">
+-               <font>
+-                  <Font name="System Bold" size="14.0" />
+-               </font>
+-            </Button>
+-            <Button fx:id="btnEmployees" layoutX="84.0" layoutY="255.0" mnemonicParsing="false" onAction="#employeebtnOnAction" prefHeight="30.0" prefWidth="110.0" style="-fx-background-color: #00695c;" text="EMPLOYEES" textFill="WHITE">
+-               <font>
+-                  <Font name="System Bold" size="14.0" />
+-               </font>
+-            </Button>
+-            <Button fx:id="btnSupplies" layoutX="75.0" layoutY="307.0" mnemonicParsing="false" onAction="#suppliesbtnOnAction" prefHeight="30.0" prefWidth="110.0" style="-fx-background-color: #00695c;" text="SUPPLIES" textFill="WHITE">
+-               <font>
+-                  <Font name="System Bold" size="14.0" />
+-               </font>
+-            </Button>
+-            <Button fx:id="btnBilling" layoutX="80.0" layoutY="358.0" mnemonicParsing="false" onAction="#billingbtnOnAction" prefHeight="30.0" prefWidth="94.0" style="-fx-background-color: #00695c;" text="BILLING" textFill="WHITE">
+-               <font>
+-                  <Font name="System Bold" size="14.0" />
+-               </font>
+-            </Button>
+-            <Button fx:id="btnInhouse" layoutX="72.0" layoutY="411.0" mnemonicParsing="false" onAction="#inhousebtnOnAction" prefHeight="30.0" prefWidth="123.0" style="-fx-background-color: #00695c;" text="IN-HOUSE" textFill="WHITE">
+-               <font>
+-                  <Font name="System Bold" size="14.0" />
+-               </font>
+-            </Button>
+-            <Button fx:id="btnLogout" layoutX="88.0" layoutY="468.0" mnemonicParsing="false" onAction="#logoutbtnOnAction" prefHeight="30.0" prefWidth="94.0" style="-fx-background-color: #00695c;" text="LOGOUT" textFill="WHITE">
+-               <font>
+-                  <Font name="System Bold" size="14.0" />
+-               </font>
+-            </Button>
+-            <Button fx:id="btnUsers" layoutX="83.0" layoutY="197.0" mnemonicParsing="false" onAction="#usersbtnOnAction" prefHeight="30.0" prefWidth="79.0" style="-fx-background-color: #00695c;" text="USERS" textFill="WHITE">
+-               <font>
+-                  <Font name="System Bold" size="14.0" />
+-               </font>
+-            </Button>
+-            <ImageView fitHeight="41.0" fitWidth="41.0" layoutX="32.0" layoutY="74.0">
+-               <image>
+-                  <Image url="@../img/clipart387321.png" />
+-               </image>
+-            </ImageView>
+-            <ImageView fitHeight="41.0" fitWidth="41.0" layoutX="32.0" layoutY="133.0">
+-               <image>
+-                  <Image url="@../img/fghfgh.png" />
+-               </image>
+-            </ImageView>
+-            <ImageView fitHeight="41.0" fitWidth="41.0" layoutX="32.0" layoutY="192.0">
+-               <image>
+-                  <Image url="@../img/fghfgh.png" />
+-               </image>
+-            </ImageView>
+-            <ImageView fitHeight="41.0" fitWidth="41.0" layoutX="32.0" layoutY="242.0">
+-               <image>
+-                  <Image url="@../img/clipart61323.png" />
+-               </image>
+-            </ImageView>
+-            <ImageView fitHeight="41.0" fitWidth="41.0" layoutX="32.0" layoutY="353.0">
+-               <image>
+-                  <Image url="@../img/clipart395457.png" />
+-               </image>
+-            </ImageView>
+-            <ImageView fitHeight="41.0" fitWidth="41.0" layoutX="29.0" layoutY="274.0">
+-               <image>
+-                  <Image url="@../img/clipart722574.png" />
+-               </image>
+-               <viewport>
+-                  <Rectangle2D height="41.0" width="41.0" />
+-               </viewport>
+-            </ImageView>
+-            <ImageView fitHeight="41.0" fitWidth="41.0" layoutX="32.0" layoutY="406.0">
+-               <image>
+-                  <Image url="@../img/clipart722574.png" />
+-               </image>
+-            </ImageView>
+-            <ImageView fitHeight="30.0" fitWidth="34.0" layoutX="36.0" layoutY="468.0">
+-               <image>
+-                  <Image url="@../img/clipart2257855.png" />
+-               </image>
+-            </ImageView>
+-            <ImageView fitHeight="41.0" fitWidth="41.0" layoutX="33.0" layoutY="302.0">
+-               <image>
+-                  <Image url="@../img/clipart281332.png" />
+-               </image>
+-            </ImageView>
+-         </children>
+-      </AnchorPane>
+-      <ComboBox layoutX="314.0" layoutY="126.0" prefHeight="25.0" prefWidth="150.0" />
+-      <TextField layoutX="270.0" layoutY="163.0" prefHeight="25.0" prefWidth="303.0" />
+-      <TextField layoutX="280.0" layoutY="260.0" prefHeight="25.0" prefWidth="149.0" />
+-      <Label layoutX="209.0" layoutY="336.0" prefHeight="19.0" prefWidth="72.0" text="Email :">
++      <ComboBox fx:id="cmbCustomID" layoutX="495.0" layoutY="81.0" onAction="#cmbCustomerOnAction" prefHeight="25.0" prefWidth="150.0" />
++      <Label layoutX="31.0" layoutY="131.0" prefHeight="20.0" prefWidth="81.0" text="Item_ID :">
++         <font>
++            <Font name="System Bold" size="15.0" />
++         </font>
++      </Label>
++      <ComboBox fx:id="cmbItemID" layoutX="104.0" layoutY="129.0" onAction="#cmbItemOnAction" prefHeight="25.0" prefWidth="150.0" />
++      <Button fx:id="btnSelect" layoutX="662.0" layoutY="125.0" mnemonicParsing="false" onAction="#selectbtnOnAction" prefHeight="32.0" prefWidth="81.0" style="-fx-background-color: #00695c;" text="Select">
++         <font>
++            <Font name="System Bold" size="15.0" />
++         </font>
++      </Button>
++      <Label layoutX="372.0" layoutY="131.0" prefHeight="20.0" prefWidth="100.0" text="Quantity :">
++         <font>
++            <Font name="System Bold" size="15.0" />
++         </font>
++      </Label>
++      <ComboBox fx:id="cmbQuantity" layoutX="495.0" layoutY="129.0" prefHeight="25.0" prefWidth="88.0" />
++      <TableView fx:id="tblOrder" layoutX="25.0" layoutY="310.0" prefHeight="198.0" prefWidth="727.0">
++         <columns>
++            <TableColumn fx:id="colItemID" prefWidth="134.0" text="Item_ID" />
++            <TableColumn fx:id="colItemName" minWidth="0.0" prefWidth="228.0" text="Name" />
++            <TableColumn fx:id="colQuantity" minWidth="0.0" prefWidth="184.0" text="Quantity" />
++            <TableColumn fx:id="colPrice" minWidth="0.0" prefWidth="180.0" text="Price" />
++         </columns>
++      </TableView>
++      <Button fx:id="btnBack" layoutX="550.0" layoutY="537.0" mnemonicParsing="false" onAction="#backbtnOnAction" prefHeight="32.0" prefWidth="81.0" style="-fx-background-color: #00695c;" text="Back">
++         <font>
++            <Font name="System Bold" size="15.0" />
++         </font>
++      </Button>
++      <Label layoutX="24.0" layoutY="531.0" prefHeight="32.0" prefWidth="94.0" text="  TOTAL :">
++         <font>
++            <Font name="System Bold" size="20.0" />
++         </font>
++      </Label>
++      <Label fx:id="lblTotal" layoutX="112.0" layoutY="531.0" prefHeight="32.0" prefWidth="94.0">
++         <font>
++            <Font size="14.0" />
++         </font>
++      </Label>
++      <Label fx:id="lblTime" layoutX="104.0" layoutY="224.0" prefHeight="25.0" prefWidth="114.0" />
++      <Label fx:id="lblDate" layoutX="279.0" layoutY="224.0" prefHeight="25.0" prefWidth="94.0" />
++      <Label fx:id="lblName" layoutX="104.0" layoutY="169.0" prefHeight="40.0" prefWidth="267.0" />
++      <Label layoutX="373.0" layoutY="181.0" prefHeight="20.0" prefWidth="100.0" text=" Price :">
++         <font>
++            <Font name="System Bold" size="15.0" />
++         </font>
++      </Label>
++      <Label fx:id="lblPrice" layoutX="463.0" layoutY="172.0" prefHeight="40.0" prefWidth="167.0" />
++      <Label layoutX="373.0" layoutY="226.0" prefHeight="21.0" prefWidth="108.0" text=" Description :">
++         <font>
++            <Font name="System Bold" size="15.0" />
++         </font>
++      </Label>
++      <TextField fx:id="txtDescription" layoutX="533.0" layoutY="224.0" prefHeight="25.0" prefWidth="197.0" />
++      <Label layoutX="31.0" layoutY="266.0" prefHeight="21.0" prefWidth="71.0" text="Contact :">
++         <font>
++            <Font name="System Bold" size="15.0" />
++         </font>
++      </Label>
++      <Label fx:id="lblContact" layoutX="112.0" layoutY="264.0" prefHeight="25.0" prefWidth="167.0" />
++      <Label fx:id="lblEmail" layoutX="428.0" layoutY="264.0" prefHeight="25.0" prefWidth="238.0" />
++      <Label layoutX="362.0" layoutY="266.0" prefHeight="21.0" prefWidth="81.0" text="Email :">
+          <font>
+-            <Font size="13.0" />
++            <Font name="System Bold" size="15.0" />
+          </font>
+       </Label>
+-      <TextField layoutX="263.0" layoutY="333.0" prefHeight="25.0" prefWidth="333.0" />
+    </children>
+-</AnchorPane>
++</AnchorPane>
+\ No newline at end of file

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="dashboardPane" prefHeight="525.0" prefWidth="776.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.VaccineScheduleFormController">
+   <children>
+      <ScrollPane layoutX="13.0" layoutY="64.0" prefHeight="453.0" prefWidth="753.0">
+         <content>
+            <TableView fx:id="tblVaccination" prefHeight="453.0" prefWidth="850.0">
+               <columns>
+                  <TableColumn fx:id="colID" prefWidth="98.0" text="Vaccination_ID" />
+                  <TableColumn fx:id="colPetID" minWidth="0.0" prefWidth="116.0" text="Pet_ID" />
+                  <TableColumn fx:id="colCustID" minWidth="0.0" prefWidth="122.0" text="Customer_ID" />
+                  <TableColumn fx:id="colDate" minWidth="0.0" prefWidth="122.0" text="Date" />
+                  <TableColumn fx:id="colTime" minWidth="0.0" prefWidth="108.0" text="Time" />
+                  <TableColumn fx:id="colDescription" minWidth="0.0" prefWidth="180.0" text="Description" />
+                  <TableColumn fx:id="colContact" minWidth="0.0" prefWidth="100.0" text="Contact" />
+               </columns>
+            </TableView>
+         </content>
+      </ScrollPane>
+      <Label layoutX="185.0" layoutY="14.0" prefHeight="46.0" prefWidth="434.0" text="   VACCINATION SCHEDULE" textFill="#1d5143">
+         <font>
+            <Font name="System Bold" size="31.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnBack" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#backbtnOnAction" prefHeight="21.0" prefWidth="75.0" text="Back">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="dashboardPane" prefHeight="706.0" prefWidth="1032.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.ManageFormController">
+   <children>
+      <ImageView fitHeight="717.0" fitWidth="1032.0">
+         <image>
+            <Image url="@../img/3320405_9227.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="424.0" fitWidth="565.0" layoutX="-61.0" layoutY="-140.0">
+         <image>
+            <Image url="@../img/VETCLOUD-1.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="111.0" layoutY="357.0" prefHeight="34.0" prefWidth="48.0" text="Pet" textFill="#8a8263">
+         <font>
+            <Font name="Arial Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="309.0" layoutY="357.0" prefHeight="34.0" prefWidth="112.0" text="Customer" textFill="#8a8263">
+         <font>
+            <Font name="Arial Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="556.0" layoutY="357.0" prefHeight="34.0" prefWidth="70.0" text="Users" textFill="#8a8263">
+         <font>
+            <Font name="Arial Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="760.0" layoutY="357.0" prefHeight="34.0" prefWidth="112.0" text="Employee" textFill="#6b654c">
+         <font>
+            <Font name="Arial Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="111.0" layoutY="617.0" prefHeight="34.0" prefWidth="62.0" text="Items" textFill="#5b5646">
+         <font>
+            <Font name="Arial Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="334.0" layoutY="617.0" prefHeight="34.0" prefWidth="62.0" text="Bills" textFill="#655f4b">
+         <font>
+            <Font name="Arial Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="546.0" layoutY="617.0" prefHeight="34.0" prefWidth="90.0" text="Reports" textFill="#8a8263">
+         <font>
+            <Font name="Arial Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="792.0" layoutY="617.0" prefHeight="34.0" prefWidth="90.0" text="Clinic" textFill="#8a8263">
+         <font>
+            <Font name="Arial Bold" size="23.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="btnPets" layoutX="63.0" layoutY="193.0" onAction="#petbtnOnAction" prefHeight="148.0" prefWidth="144.0" text=" ">
+         <graphic>
+            <ImageView blendMode="OVERLAY" fitHeight="148.0" fitWidth="145.0">
+               <image>
+                  <Image url="@../img/pets.png" />
+               </image>
+               <effect>
+                  <ColorAdjust brightness="-1.0" />
+               </effect>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="btnCustomer" layoutX="274.0" layoutY="185.0" onAction="#customerbtnOnAction" prefHeight="148.0" prefWidth="144.0" text=" ">
+         <graphic>
+            <ImageView blendMode="OVERLAY" fitHeight="148.0" fitWidth="145.0">
+               <image>
+                  <Image url="@../img/owner.png" />
+               </image>
+               <effect>
+                  <ColorAdjust brightness="-1.0" contrast="-0.21" hue="-0.04" saturation="0.55" />
+               </effect>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="btnUsers" layoutX="504.0" layoutY="184.0" onAction="#usersbtnOnAction" prefHeight="148.0" prefWidth="144.0" text=" ">
+         <graphic>
+            <ImageView blendMode="OVERLAY" fitHeight="150.0" fitWidth="149.0">
+               <image>
+                  <Image url="@../img/blogger.png" />
+               </image>
+               <effect>
+                  <ColorAdjust brightness="-1.0" />
+               </effect>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="btnEmployee" layoutX="743.0" layoutY="182.0" onAction="#employeebtnOnAction" prefHeight="148.0" prefWidth="144.0" text=" ">
+         <graphic>
+            <ImageView blendMode="OVERLAY" fitHeight="155.0" fitWidth="145.0">
+               <image>
+                  <Image url="@../img/division.png" />
+               </image>
+               <effect>
+                  <ColorAdjust brightness="-1.0" />
+               </effect>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="btnSupplies" layoutX="63.0" layoutY="443.0" onAction="#suppliesbtnOnAction" prefHeight="148.0" prefWidth="144.0" text=" ">
+         <graphic>
+            <ImageView blendMode="OVERLAY" fitHeight="148.0" fitWidth="145.0">
+               <image>
+                  <Image url="@../img/deduction.png" />
+               </image>
+               <effect>
+                  <ColorAdjust brightness="-1.0" />
+               </effect>
+            </ImageView>
+         </graphic></JFXButton>
+      <JFXButton fx:id="btnBilling" layoutX="287.0" layoutY="447.0" onAction="#billingbtnOnAction" prefHeight="148.0" prefWidth="144.0" text=" ">
+         <graphic>
+            <ImageView blendMode="OVERLAY" fitHeight="148.0" fitWidth="145.0">
+               <image>
+                  <Image url="@../img/bill.png" />
+               </image>
+               <effect>
+                  <ColorAdjust brightness="-0.81" />
+               </effect>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="btnReports" layoutX="504.0" layoutY="442.0" onAction="#btnReportOnAction" prefHeight="148.0" prefWidth="144.0" text=" ">
+         <graphic>
+            <ImageView blendMode="OVERLAY" fitHeight="148.0" fitWidth="145.0">
+               <image>
+                  <Image url="@../img/medical-report.png" />
+               </image>
+               <effect>
+                  <ColorAdjust brightness="-0.71" />
+               </effect>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="btnInhouse" layoutX="752.0" layoutY="442.0" onAction="#inhousebtnOnAction" prefHeight="148.0" prefWidth="144.0" text=" ">
+         <graphic>
+            <ImageView blendMode="OVERLAY" fitHeight="148.0" fitWidth="145.0">
+               <image>
+                  <Image url="@../img/clinic.png" />
+               </image>
+               <effect>
+                  <ColorAdjust brightness="-0.66" />
+               </effect>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="btnBack" layoutX="870.0" layoutY="37.0" onAction="#btnBackOnAction" prefHeight="34.0" prefWidth="103.0" style="-fx-background-color: #d3b969;" text="Back">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
