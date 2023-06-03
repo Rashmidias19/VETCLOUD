@@ -38,6 +38,18 @@ public class Pet {
   this.address = address;
   this.contact = contact;
  }
+ public Pet(String petID, String name, String customerID, String type, String breed, String gender, String dob, int age, String address, String contact) {
+  this.PetID = petID;
+  this.Name = name;
+  this.CustomerID = customerID;
+  this.Type = type;
+  this.Breed = breed;
+  this.Gender = gender;
+  this.DOB = String.valueOf(dob);
+  this.Age = age;
+  this.address = address;
+  this.contact = contact;
+ }
 
 
 }

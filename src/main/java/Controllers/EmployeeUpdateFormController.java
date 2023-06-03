@@ -36,13 +36,6 @@ import java.util.ResourceBundle;
 
 public class EmployeeUpdateFormController implements Initializable {
 
-    private static final String URL = "jdbc:mysql://localhost:3306/VETCLOUD";
-    private static final Properties props = new Properties();
-
-    static {
-        props.setProperty("user", "root");
-        props.setProperty("password", "1234");
-    }
 
     public AnchorPane dashboardPane;
 
@@ -251,29 +244,10 @@ public class EmployeeUpdateFormController implements Initializable {
         String contact=txtContact.getText();
         String email=txtEmail.getText();
 
-
-
-        try (Connection con = DriverManager.getConnection(URL, props)) {
-            String sql = "UPDATE Employee SET Name = ?,  UserID = ?, DOB = ?, NIC = ?, Age = ?, gender = ?, address = ?, salary = ?, contact = ?, email = ? WHERE EmployeeID = ?" ;
-
-            PreparedStatement pstm = con.prepareStatement(sql);
-            pstm.setString(1, Name);
-            pstm.setString(2, UserID);
-            pstm.setString(3, DOB);
-            pstm.setString(4,NIC);
-            pstm.setInt(5,Age);
-            pstm.setString(6,gender);
-            pstm.setString(7,address);
-            pstm.setString(8,salary);
-            pstm.setString(9,contact);
-            pstm.setString(10,email);
-            pstm.setString(11,EmployeeID);
-
-            boolean isUpdated = pstm.executeUpdate() > 0;
-            if (isUpdated) {
-                new Alert(Alert.AlertType.CONFIRMATION, "yes! updated!!").show();
-            }
-
+        try {
+            boolean isUpdate = EmployeeModel.update(new Employee(EmployeeID,Name,UserID,DOB,NIC,Age,gender,address,salary,contact,email));
+        } catch (SQLException e) {
+            new Alert(Alert.AlertType.ERROR, "something went wrong!").show();
         }
         Stage stage = (Stage) dashboardPane.getScene().getWindow();
         stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("../view/EmployeeUpdateForm.fxml"))));

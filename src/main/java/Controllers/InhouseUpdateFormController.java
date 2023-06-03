@@ -30,13 +30,6 @@ import java.util.Properties;
 import java.util.ResourceBundle;
 
 public class InhouseUpdateFormController implements Initializable {
-    private static final String URL = "jdbc:mysql://localhost:3306/VETCLOUD";
-    private static final Properties props = new Properties();
-
-    static {
-        props.setProperty("user", "root");
-        props.setProperty("password", "1234");
-    }
 
     public AnchorPane dashboardPane;
 
@@ -203,31 +196,21 @@ public class InhouseUpdateFormController implements Initializable {
         String Description=txtDescription.getText();
         String Contact=lblContact.getText();
 
-
-        try (Connection con = DriverManager.getConnection(URL, props)) {
-            String sql = "UPDATE Inhouse SET PetID = ?,  CustomerID = ?, AdmittedDate = ?, Time = ?, DischargeDate = ?, Description = ?, Contact = ? WHERE InhouseID = ?" ;
-
-            PreparedStatement pstm = con.prepareStatement(sql);
-            pstm.setString(1, PetID);
-            pstm.setString(2, CustomerID);
-            pstm.setString(3, AdmittedDate);
-            pstm.setString(4,Time);
-            pstm.setString(5,DischargeDate);
-            pstm.setString(6,Description);
-            pstm.setString(7,Contact);
-            pstm.setString(8,InhouseID);
-
-            boolean isUpdated = pstm.executeUpdate() > 0;
-            if (isUpdated) {
-                new Alert(Alert.AlertType.CONFIRMATION, "yes! updated!!").show();
+        try {
+            boolean isUpdate = InhouseModel.update(new Inhouse(InhouseID,PetID,CustomerID,AdmittedDate,Time,DischargeDate,Description,Contact));
+            if (isUpdate) {
+                new Alert(Alert.AlertType.CONFIRMATION, "Inhouse saved!").show();
             }
-
+        } catch (SQLException | ClassNotFoundException e) {
+            new Alert(Alert.AlertType.ERROR, "something went wrong!").show();
         }
+
         Stage stage = (Stage) dashboardPane.getScene().getWindow();
         stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("../view/InhouseUpdateForm.fxml"))));
         stage.setTitle("VETCLOUD");
         stage.centerOnScreen();
         stage.show();
+
 
     }
 }

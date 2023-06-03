@@ -28,22 +28,15 @@ public class PetDeleteForm1Controller implements Initializable {
     private AnchorPane dashboardPane;
 
     public void deletebtnOnAction(ActionEvent event) throws IOException {
-            String id = (String) cmbID.getValue();
-
-            try {
-                boolean isDeleted = PetModel.delete(id);
-                if (isDeleted) {
-                    new Alert(Alert.AlertType.CONFIRMATION, "deleted!").show();
-                }
-            } catch (SQLException e) {
-                new Alert(Alert.AlertType.ERROR, "something went wrong!").show();
+        String id = (String) cmbID.getValue();
+        try {
+            boolean isDeleted = PetModel.delete(id);
+            if (isDeleted) {
+                new Alert(Alert.AlertType.CONFIRMATION, "deleted!").show();
             }
-            Stage stage = (Stage) dashboardPane.getScene().getWindow();
-            stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("../view/PetDeleteForm1.fxml"))));
-            stage.setTitle("VETCLOUD");
-            stage.centerOnScreen();
-            stage.show();
-
+        } catch (SQLException e) {
+            new Alert(Alert.AlertType.ERROR, "something went wrong!").show();
+        }
     }
 
     private void loadPetsID() {

@@ -57,4 +57,18 @@ public class OperationScheduleModel {
         }
         return data;
     }
+    public static boolean save(OperationSchedule operationSchedule) throws SQLException, ClassNotFoundException {
+        String sql = "INSERT INTO OperationSchedule(OperationID,PetID,CustomerID,Date,Time,Description,Hours,Contact)" +
+                "VALUES(?, ?, ?, ?,?,?,?,?)";
+        return CrudUtil.execute(
+                sql,
+                operationSchedule.getOperationID(),
+                operationSchedule.getPetID(),
+                operationSchedule.getCustomerID(),
+                operationSchedule.getDate(),
+                operationSchedule.getTime(),
+                operationSchedule.getDescription(),
+                operationSchedule.getHours(),
+                operationSchedule.getContact());
+    }
 }

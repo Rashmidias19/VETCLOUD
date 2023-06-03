@@ -1,8 +1,6 @@
 package model;
 
 import db.DBConnection;
-import dto.Customer;
-import dto.Item;
 import dto.Pet;
 import javafx.scene.control.Alert;
 import util.CrudUtil;
@@ -14,7 +12,6 @@ import java.io.InputStream;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Properties;
 
 public class PetModel {
 
@@ -98,7 +95,7 @@ public class PetModel {
         return "P0001";
     }
 
-    public static void save(Pet pet, FileInputStream inp, File file) throws SQLException, FileNotFoundException {
+    public static boolean save(Pet pet, FileInputStream inp, File file) throws SQLException, FileNotFoundException {
         String sql = "INSERT INTO Pet(PetID,Name,CustomerID,Type ,Breed,Gender,DOB,age,address,contact,picture )" +
                 "VALUES(?, ?, ?, ?,?,?,?,?,?,?,?)";
         PreparedStatement pstm = DBConnection.getInstance().getConnection().prepareStatement(sql);
@@ -115,12 +112,11 @@ public class PetModel {
         inp = new FileInputStream(file);
         pstm.setBinaryStream(11, (InputStream) inp, (int) file.length());
         int affectedRows = pstm.executeUpdate();
+        boolean isSaved=false;
         if (affectedRows > 0) {
-            new Alert(Alert.AlertType.CONFIRMATION,
-                    "Pet added :)")
-                    .show();
+            isSaved=true;
         }
-
+        return isSaved;
     }
 
     public static boolean update(Pet pet) throws SQLException {
@@ -140,15 +136,8 @@ public class PetModel {
         return pstm.executeUpdate() > 0;
     }
 
-    public static boolean delete(String id) throws SQLException {
-        try (Connection con = DBConnection.getInstance().getConnection()) {
-
-            String sql = "DELETE FROM Pet WHERE PetID = ?";
-            PreparedStatement pstm = con.prepareStatement(sql);
-            pstm.setString(1, id);
-
-            return pstm.executeUpdate() > 0;
-        }
+    public static boolean delete(String id) throws SQLException, ClassNotFoundException {
+        return CrudUtil.execute("DELETE FROM Pet WHERE PetID = ?",id);
     }
 
     public static boolean exist(String id) throws SQLException {

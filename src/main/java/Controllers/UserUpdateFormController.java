@@ -27,13 +27,7 @@ import java.util.Properties;
 import java.util.ResourceBundle;
 
 public class UserUpdateFormController implements Initializable {
-    private static final String URL = "jdbc:mysql://localhost:3306/VETCLOUD";
-    private static final Properties props = new Properties();
 
-    static {
-        props.setProperty("user", "root");
-        props.setProperty("password", "1234");
-    }
 
     public AnchorPane dashboardPane;
 
@@ -162,21 +156,16 @@ public class UserUpdateFormController implements Initializable {
         String Password=txtPassword.getText();
         String email=txtEmail.getText();
 
-        try (Connection con = DriverManager.getConnection(URL, props)) {
-            String sql = "UPDATE User SET UserName = ?,  Password = ?, email = ? WHERE UserID = ?" ;
 
-            PreparedStatement pstm = con.prepareStatement(sql);
-            pstm.setString(1, UserName);
-            pstm.setString(2, Password);
-            pstm.setString(3, email);
-            pstm.setString(4,UserID);
-
-            boolean isUpdated = pstm.executeUpdate() > 0;
+        try {
+            boolean isUpdated = UserModel.update( new User(UserID,UserName,Password,email));
             if (isUpdated) {
-                new Alert(Alert.AlertType.CONFIRMATION, "yes! updated!!").show();
+                new Alert(Alert.AlertType.CONFIRMATION, "User saved!").show();
             }
-
+        } catch (SQLException | ClassNotFoundException e) {
+            new Alert(Alert.AlertType.ERROR, "something went wrong!").show();
         }
+
         Stage stage = (Stage) dashboardPane.getScene().getWindow();
         stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("../view/UserUpdateForm.fxml"))));
         stage.setTitle("VETCLOUD");

@@ -89,13 +89,6 @@ public class BillModel {
     }
 
     public static boolean delete(String id) throws SQLException {
-           try(Connection con =DBConnection.getInstance().getConnection()){
-
-               String sql = "DELETE FROM Bill WHERE BillID = ?";
-               PreparedStatement pstm = con.prepareStatement(sql);
-               pstm.setString(1, id);
-
-               return pstm.executeUpdate() > 0;
-           }
+        return CrudUtil.execute("DELETE FROM Bill WHERE BillID = ?",id);
     }
 }

@@ -1,5 +1,6 @@
 package Controllers;
 
+import dto.Item;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
@@ -149,46 +150,29 @@ public class SupplieRegisterFormController implements Initializable {
     public void savebtnOnAction(ActionEvent event) throws SQLException, IOException {
         String ItemID=lblID.getText();
         String Name=txtName.getText();
-        LocalDate Man_Date=ManDate.getValue();
-        LocalDate Exp_Date=ExpDate.getValue();
+        String Man_Date= String.valueOf(ManDate.getValue());
+        String Exp_Date= String.valueOf(ExpDate.getValue());
         String Supplier_name=txtSupName.getText();
         String Type= (String) cmbType.getValue();
         String Supplier_contact=txtContact.getText();
         String Description=txtDescription.getText();
-        String Quantity=txtQuantity.getText();
+        String Quantity= String.valueOf(Integer.parseInt(txtQuantity.getText()));
         Double Price= Double.valueOf(txtPrice.getText());
 
-
-
-//        try (Connection con = DriverManager.getConnection(URL, props)) {
-//            String sql = "INSERT INTO Item(ItemID,Name,Man_Date,Exp_Date,Supplier_name,Type,Supplier_contact,Description,Quantity,Price)" +
-//                    "VALUES(?, ?, ?, ?,?,?,?,?,?,?)";
-//            PreparedStatement pstm = con.prepareStatement(sql);
-//            pstm.setString(1,ItemID);
-//            pstm.setString(2, Name);
-//            pstm.setDate(3, java.sql.Date.valueOf(Man_Date));
-//            pstm.setDate(4, java.sql.Date.valueOf(Exp_Date));
-//            pstm.setString(5,Supplier_name);
-//            pstm.setString(6,Type);
-//            pstm.setString(7,Supplier_contact);
-//            pstm.setString(8,Description);
-//            pstm.setString(9, Quantity);
-//            pstm.setDouble(10,Price);
-//
-//
-//            int affectedRows = pstm.executeUpdate();
-//            if (affectedRows > 0) {
-//                new Alert(Alert.AlertType.CONFIRMATION,
-//                        "Item added :)")
-//                        .show();
-//            }
-//
-//        }
+        try {
+            boolean isSaved = ItemModel.save(new Item(ItemID,Man_Date,Exp_Date,Supplier_name,Type,Supplier_contact,Description,Quantity,Price,Name));
+            System.out.println(isSaved);
+            if (isSaved) {
+                new Alert(Alert.AlertType.CONFIRMATION, "Item saved!").show();
+            }
+        } catch (SQLException | ClassNotFoundException e) {
+            System.out.println(e);
+            new Alert(Alert.AlertType.ERROR, "something went wrong!").show();
+        }
         Stage stage = (Stage) dashboardPane.getScene().getWindow();
         stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("../view/SupplieRegisterForm.fxml"))));
         stage.setTitle("VETCLOUD");
         stage.centerOnScreen();
         stage.show();
-
     }
 }

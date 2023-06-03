@@ -2,6 +2,7 @@ package Controllers;
 
 import com.jfoenix.controls.JFXComboBox;
 import dto.Customer;
+import dto.Inhouse;
 import dto.Item;
 import dto.Pet;
 import dto.tm.CartTM;
@@ -165,32 +166,19 @@ public class InhouseAddFormController implements Initializable {
         String InhouseID=lblID.getText();
         String PetID= (String) cmbPetID.getValue();
         String CustomerID= lblCustomerID.getText();
-        LocalDate AdmittedDate=AdDate.getValue();
+        String AdmittedDate= String.valueOf(AdDate.getValue());
         String Time= time.getText();
-        LocalDate DischargeDate=DisDate.getValue();
+        String DischargeDate= String.valueOf(DisDate.getValue());
         String contact=lblContact.getText();
         String Description=txtDescription.getText();
 
-        try (Connection con = DriverManager.getConnection(URL, props)) {
-            String sql = "INSERT INTO Inhouse(InhouseID,PetID,CustomerID,AdmittedDate,Time,DischargeDate,Description,contact)" +
-                    "VALUES(?, ?, ?, ?,?,?,?,?)";
-            PreparedStatement pstm = con.prepareStatement(sql);
-            pstm.setString(1,InhouseID);
-            pstm.setString(2, PetID);
-            pstm.setString(3, CustomerID);
-            pstm.setDate(4, java.sql.Date.valueOf(AdmittedDate));
-            pstm.setString(5,Time);
-            pstm.setDate(6, Date.valueOf(DischargeDate));
-            pstm.setString(7,Description);
-            pstm.setString(8,contact);
-
-            int affectedRows = pstm.executeUpdate();
-            if (affectedRows > 0) {
-                new Alert(Alert.AlertType.CONFIRMATION,
-                        "Inhouse added :)")
-                        .show();
+        try {
+            boolean isSaved = InhouseModel.save(new Inhouse(InhouseID,PetID,CustomerID,AdmittedDate,Time,DischargeDate,Description,contact));
+            if (isSaved) {
+                new Alert(Alert.AlertType.CONFIRMATION, "Customer saved!").show();
             }
-
+        } catch (SQLException e) {
+            new Alert(Alert.AlertType.ERROR, "something went wrong!").show();
         }
         Stage stage = (Stage) dashboardPane.getScene().getWindow();
         stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("../view/InhouseAddForm.fxml"))));

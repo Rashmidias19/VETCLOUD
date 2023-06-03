@@ -26,6 +26,21 @@ public class VaccinationScheduleModel {
         return splitVaccId(null);
     }
 
+    public static boolean save(VaccinationSchedule vaccinationSchedule) throws SQLException, ClassNotFoundException {
+        String sql =  "INSERT INTO Vaccinationschedule(VaccinationID, PetID,CustomerID,Date,Time,Description,Contact)" +
+                "VALUES(?, ?, ?, ?,?,?,?)";
+        return CrudUtil.execute(
+                sql,
+                vaccinationSchedule.getVaccinationID(),
+                vaccinationSchedule.getPetID(),
+                vaccinationSchedule.getCustomerID(),
+                vaccinationSchedule.getDate(),
+                vaccinationSchedule.getTime(),
+                vaccinationSchedule.getDescription(),
+                vaccinationSchedule.getContact());
+    }
+
+
     private static String splitVaccId(String currentId) {
         if(currentId != null) {
             String[] strings = currentId.split("V000");

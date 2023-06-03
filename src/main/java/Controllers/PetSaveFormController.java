@@ -149,21 +149,26 @@ public class PetSaveFormController implements Initializable {
         String Type= (String) cmbSpecies.getValue();
         String Breed=txtBreed.getText();
         String Gender= (String) cmbGender.getValue();
-        LocalDate DOB=date.getValue();
+        String DOB= String.valueOf(LocalDate.parse(String.valueOf(date.getValue())));
         int age=Integer.parseInt(txtAge.getText());
         String address=txtAddress.getText();
         String contact=txtContact.getText();
-        inp=new FileInputStream(file);
 
-        Pet pet=new Pet(PetID,Name,CustomerID,Type,Breed,Gender,DOB,age,address,contact);
-
-        PetModel.save(pet,inp,file);
+        try {
+            boolean isSaved = PetModel.save(new Pet(PetID,Name,CustomerID,Type,Breed,Gender,DOB,age,address,contact),inp,file);
+            if (isSaved) {
+                new Alert(Alert.AlertType.CONFIRMATION, "Pet Saved!").show();
+            }
+        } catch (SQLException e) {
+            new Alert(Alert.AlertType.ERROR, "something went wrong!").show();
+        }
 
         Stage stage = (Stage) dashboardPane.getScene().getWindow();
-        stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("../view/PetSaveForm.fxml"))));
+        stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("../view/PetRegisterForm.fxml"))));
         stage.setTitle("VETCLOUD");
         stage.centerOnScreen();
         stage.show();
+
     }
 
     public void btnAddOnAction(ActionEvent event) throws FileNotFoundException {

@@ -1,5 +1,6 @@
 package Controllers;
 
+import dto.Employee;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
@@ -30,13 +31,6 @@ import java.util.ResourceBundle;
 
 public class EmployeeRegisterFormController implements Initializable {
     public AnchorPane dashboardPane;
-    private static final String URL = "jdbc:mysql://localhost:3306/VETCLOUD";
-    private static final Properties props = new Properties();
-
-    static {
-        props.setProperty("user", "root");
-        props.setProperty("password", "1234");
-    }
 
 
     @FXML
@@ -206,46 +200,29 @@ public class EmployeeRegisterFormController implements Initializable {
                 String contact = txtContact.getText();
                 String email = txtEmail.getText();
 
-
-                try (Connection con = DriverManager.getConnection(URL, props)) {
-                    String sql = "INSERT INTO Employee(EmployeeID,Name,UserID,DOB,NIC,Age,Gender,address,Salary,contact,email,picture)" +
-                            "VALUES(?, ?, ?, ?,?,?,?,?,?,?,?,?)";
-                    PreparedStatement pstm = con.prepareStatement(sql);
-                    pstm.setString(1, EmployeeID);
-                    pstm.setString(2, Name);
-                    pstm.setString(3, UserID);
-                    pstm.setDate(4, java.sql.Date.valueOf(DOB));
-                    pstm.setString(5, NIC);
-                    pstm.setInt(6, Age);
-                    pstm.setString(7, Gender);
-                    pstm.setString(8, address);
-                    pstm.setString(9, Salary);
-                    pstm.setString(10, contact);
-                    pstm.setString(11, email);
-                    inp=new FileInputStream(file);
-                    pstm.setBinaryStream(12,(InputStream) inp,(int)file.length());
-
-                    int affectedRows = pstm.executeUpdate();
-                    if (affectedRows > 0) {
-                        new Alert(Alert.AlertType.CONFIRMATION,
-                                "Employee added :)")
-                                .show();
+                try {
+                    boolean isSaved = EmployeeModel.saveWithPicture(new Employee(EmployeeID,Name,UserID,DOB,NIC,Age,Gender,address,Salary,contact,email),inp,file);
+                    if (isSaved) {
+                        new Alert(Alert.AlertType.CONFIRMATION, "Employee saved!").show();
                     }
-
-                }}else{
-                    new Alert(Alert.AlertType.ERROR, "Please enter a valid age between 20-70").show();
+                } catch (SQLException e) {
+                    new Alert(Alert.AlertType.ERROR, "something went wrong!").show();
                 }
-            } else {
-                new Alert(Alert.AlertType.ERROR, "Please enter a valid email").show();
 
+            }else{
+                new Alert(Alert.AlertType.ERROR, "Please enter a valid age between 20-70").show();
             }
+        } else {
+            new Alert(Alert.AlertType.ERROR, "Please enter a valid email").show();
+
+        }
         Stage stage = (Stage) dashboardPane.getScene().getWindow();
         stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("../view/EmployeeRegisterForm.fxml"))));
         stage.setTitle("VETCLOUD");
         stage.centerOnScreen();
         stage.show();
 
-        }
+    }
 
     public void btnAddOnAction(ActionEvent event) throws FileNotFoundException {
         fileChooser = new FileChooser();

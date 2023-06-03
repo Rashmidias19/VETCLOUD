@@ -65,6 +65,18 @@ public class UserModel {
         }
         return null;
     }
+
+    public static boolean save(User user) throws SQLException, ClassNotFoundException {
+        String sql = "INSERT INTO User(UserID,UserName,password,email)" +
+                "VALUES(?, ?, ?, ?)";
+        return CrudUtil.execute(
+                sql,
+                user.getUserID(),
+                user.getUserName(),
+                user.getPassword(),
+                user.getEmail());
+    }
+
     public static String getNextUserId() throws SQLException {
         Connection con = DBConnection.getInstance().getConnection();
 
@@ -86,5 +98,20 @@ public class UserModel {
             return "U000" + id;
         }
         return "U0001";
+    }
+
+    public static boolean delete(String id) throws SQLException, ClassNotFoundException {
+        return CrudUtil.execute("DELETE FROM User WHERE UserID = ?",id);
+    }
+
+
+    public static boolean update(User dto) throws SQLException, ClassNotFoundException {
+        return CrudUtil.execute(
+                "UPDATE User SET UserName = ?,  Password = ?, email = ? WHERE UserID = ?",
+                dto.getUserName(),
+                dto.getPassword(),
+                dto.getEmail(),
+                dto.getUserID()
+        );
     }
 }
