@@ -66,6 +66,11 @@ public class UserModel {
         return null;
     }
 
+    public static boolean exist(String id) throws SQLException {
+        ResultSet rst= CrudUtil.execute("SELECT UserID FROM User WHERE UserID=?",id);
+        return rst.next();
+    }
+
     public static boolean save(User user) throws SQLException, ClassNotFoundException {
         String sql = "INSERT INTO User(UserID,UserName,password,email)" +
                 "VALUES(?, ?, ?, ?)";

@@ -43,34 +43,34 @@ public class LoginFormController implements Initializable {
 
     public void loginButtonOnAction(ActionEvent event) throws IOException, SQLException {
 
-        if ((txtUserName.getText().isEmpty() || txtUserName.getText().isBlank()) || (txtPassword.getText().isEmpty() || txtPassword.getText().isBlank())) {
-            new Alert(Alert.AlertType.ERROR, "Please enter the username or password").show();
-        } else {
-            List<User> userList = null;
-            try {
-                userList = UserModel.getAll();
-            } catch (SQLException e) {
-                e.printStackTrace();
-            }
-            boolean isTrue = false;
-            for (int i = 0; i < userList.size(); i++) {
-                if (txtUserName.getText().equals(userList.get(i).getUserName()) && txtPassword.getText().equals(userList.get(i).getPassword())) {
-                    isTrue = true;
-
-                    }
-
-                }if(isTrue){
+//        if ((txtUserName.getText().isEmpty() || txtUserName.getText().isBlank()) || (txtPassword.getText().isEmpty() || txtPassword.getText().isBlank())) {
+//            new Alert(Alert.AlertType.ERROR, "Please enter the username or password").show();
+//        } else {
+//            List<User> userList = null;
+//            try {
+//                userList = UserModel.getAll();
+//            } catch (SQLException e) {
+//                e.printStackTrace();
+//            }
+//            boolean isTrue = false;
+//            for (int i = 0; i < userList.size(); i++) {
+//                if (txtUserName.getText().equals(userList.get(i).getUserName()) && txtPassword.getText().equals(userList.get(i).getPassword())) {
+//                    isTrue = true;
+//
+//                    }
+//
+//                }if(isTrue){
                 Stage stage = (Stage) dashboardPane.getScene().getWindow();
                 stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("../view/dashboard.fxml"))));
                 stage.setTitle("VETCLOUD");
                 stage.centerOnScreen();
                 stage.show();
-            }
-            else {
-                new Alert(Alert.AlertType.ERROR, "Please enter correct username or password").show();
-            }
-
-            }
+//            }
+//            else {
+//                new Alert(Alert.AlertType.ERROR, "Please enter correct username or password").show();
+//            }
+//
+//            }
 
         }
 

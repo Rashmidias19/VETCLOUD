@@ -15,9 +15,9 @@
 <?import javafx.scene.shape.Circle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="dashboardPane" prefHeight="651.0" prefWidth="657.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.PetUpdateFormController">
+<AnchorPane fx:id="dashboardPane" prefHeight="651.0" prefWidth="601.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.PetUpdateFormController">
    <children>
-      <ImageView fitHeight="651.0" fitWidth="600.0">
+      <ImageView fitHeight="651.0" fitWidth="601.0">
          <image>
             <Image url="@../img/3320405_9227.jpg" />
          </image>
@@ -65,48 +65,48 @@
          </font>
       </Label>
       <JFXComboBox fx:id="cmbSpecies" layoutX="135.0" layoutY="161.0" prefHeight="25.0" prefWidth="204.0" />
-      <Label layoutX="63.0" layoutY="202.0" prefHeight="20.0" prefWidth="72.0" text="Breed :">
+      <Label layoutX="62.0" layoutY="215.0" prefHeight="20.0" prefWidth="72.0" text="Breed :">
          <font>
             <Font name="System Bold Italic" size="15.0" />
          </font>
       </Label>
-      <TextField fx:id="txtBreed" layoutX="135.0" layoutY="200.0" prefHeight="25.0" prefWidth="204.0" />
-      <Label layoutX="63.0" layoutY="240.0" prefHeight="20.0" prefWidth="72.0" text="Gender:">
+      <TextField fx:id="txtBreed" layoutX="135.0" layoutY="213.0" prefHeight="25.0" prefWidth="204.0" />
+      <Label layoutX="62.0" layoutY="263.0" prefHeight="20.0" prefWidth="72.0" text="Gender:">
          <font>
             <Font name="System Bold Italic" size="15.0" />
          </font>
       </Label>
-      <JFXComboBox fx:id="cmbGender" layoutX="135.0" layoutY="238.0" prefHeight="25.0" prefWidth="204.0" />
-      <Label layoutX="63.0" layoutY="286.0" prefHeight="20.0" prefWidth="72.0" text="DOB:">
+      <JFXComboBox fx:id="cmbGender" layoutX="134.0" layoutY="261.0" prefHeight="25.0" prefWidth="204.0" />
+      <Label layoutX="63.0" layoutY="315.0" prefHeight="20.0" prefWidth="72.0" text="DOB:">
          <font>
             <Font name="System Bold Italic" size="15.0" />
          </font>
       </Label>
-      <DatePicker fx:id="date" layoutX="134.0" layoutY="284.0" prefHeight="25.0" prefWidth="204.0" />
-      <Label layoutX="63.0" layoutY="329.0" prefHeight="20.0" prefWidth="72.0" text="Age:">
+      <DatePicker fx:id="date" layoutX="134.0" layoutY="313.0" prefHeight="25.0" prefWidth="204.0" />
+      <Label layoutX="63.0" layoutY="363.0" prefHeight="20.0" prefWidth="72.0" text="Age:">
          <font>
             <Font name="System Bold Italic" size="15.0" />
          </font>
       </Label>
-      <TextField fx:id="txtAge" layoutX="135.0" layoutY="327.0" prefHeight="25.0" prefWidth="204.0" />
-      <Label layoutX="62.0" layoutY="370.0" prefHeight="21.0" prefWidth="92.0" text="CustomerID:">
+      <TextField fx:id="txtAge" layoutX="134.0" layoutY="361.0" prefHeight="25.0" prefWidth="204.0" />
+      <Label layoutX="62.0" layoutY="414.0" prefHeight="21.0" prefWidth="92.0" text="CustomerID:">
          <font>
             <Font name="System Bold Italic" size="15.0" />
          </font>
       </Label>
-      <JFXComboBox fx:id="cmbCustomerID" layoutX="162.0" layoutY="368.0" prefHeight="25.0" prefWidth="204.0" />
-      <Label layoutX="62.0" layoutY="414.0" prefHeight="21.0" prefWidth="92.0" text="Address:">
+      <JFXComboBox fx:id="cmbCustomerID" layoutX="154.0" layoutY="412.0" prefHeight="25.0" prefWidth="204.0" />
+      <Label layoutX="62.0" layoutY="464.0" prefHeight="21.0" prefWidth="92.0" text="Address:">
          <font>
             <Font name="System Bold Italic" size="15.0" />
          </font>
       </Label>
-      <TextField fx:id="txtAddress" layoutX="134.0" layoutY="412.0" prefHeight="25.0" prefWidth="325.0" />
-      <Label layoutX="62.0" layoutY="460.0" prefHeight="21.0" prefWidth="72.0" text="Contact:">
+      <TextField fx:id="txtAddress" layoutX="133.0" layoutY="462.0" prefHeight="25.0" prefWidth="325.0" />
+      <Label layoutX="63.0" layoutY="516.0" prefHeight="21.0" prefWidth="72.0" text="Contact:">
          <font>
             <Font name="System Bold Italic" size="15.0" />
          </font>
       </Label>
-      <TextField fx:id="txtContact" layoutX="135.0" layoutY="458.0" prefHeight="25.0" prefWidth="234.0" />
+      <TextField fx:id="txtContact" layoutX="133.0" layoutY="514.0" prefHeight="25.0" prefWidth="234.0" />
       <JFXComboBox fx:id="cmbPetID" layoutX="147.0" layoutY="18.0" onAction="#cmbPetIDOnAction" prefHeight="25.0" prefWidth="166.0" />
       <Circle fx:id="circle" fill="WHITE" layoutX="469.0" layoutY="184.0" radius="117.0" stroke="BLACK" strokeType="INSIDE" />
       <Button fx:id="btnSearch" layoutX="352.0" layoutY="15.0" mnemonicParsing="false" onAction="#searchbtnOnAction" prefHeight="32.0" prefWidth="88.0" style="-fx-background-color: #80795a;" text="Search">
@@ -116,38 +116,6 @@
       </Button>
       <TextField fx:id="txtID" layoutX="135.0" layoutY="79.0" prefHeight="25.0" prefWidth="131.0" />
       <Button fx:id="btnUpdate" layoutX="487.0" layoutY="606.0" mnemonicParsing="false" onAction="#btnUpdateOnAction" prefHeight="32.0" prefWidth="81.0" style="-fx-background-color: #80795a;" text="Update">
-         <font>
-            <Font name="System Bold" size="15.0" />
-         </font>
-      </Button>
-      <Label layoutX="623.0" layoutY="198.0" prefHeight="32.0" prefWidth="71.0" style="-fx-background-color: #80795a;" text="   ID :">
-         <font>
-            <Font name="System Bold" size="21.0" />
-         </font>
-         <textFill>
-            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
-               <stops>
-                  <Stop color="#977a7a" />
-                  <Stop color="WHITE" offset="1.0" />
-               </stops>
-            </RadialGradient>
-         </textFill>
-      </Label>
-      <Label layoutX="63.0" layoutY="519.0" prefHeight="32.0" prefWidth="71.0" style="-fx-background-color: #80795a;" text="   ID :">
-         <font>
-            <Font name="System Bold" size="21.0" />
-         </font>
-         <textFill>
-            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
-               <stops>
-                  <Stop color="#977a7a" />
-                  <Stop color="WHITE" offset="1.0" />
-               </stops>
-            </RadialGradient>
-         </textFill>
-      </Label>
-      <JFXComboBox fx:id="cmbID" layoutX="154.0" layoutY="523.0" prefHeight="25.0" prefWidth="166.0" />
-      <Button fx:id="btnDelete1" layoutX="352.0" layoutY="519.0" mnemonicParsing="false" onAction="#deletebtnOnAction" prefHeight="32.0" prefWidth="88.0" style="-fx-background-color: #80795a;" text="Delete">
          <font>
             <Font name="System Bold" size="15.0" />
          </font>

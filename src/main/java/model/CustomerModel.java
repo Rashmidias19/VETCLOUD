@@ -23,6 +23,12 @@ public class CustomerModel {
         }
         return data;
     }
+
+    public static boolean exist(String id) throws SQLException {
+        ResultSet rst= CrudUtil.execute("SELECT CustomerID FROM Customer WHERE CustomerID=?",id);
+        return rst.next();
+    }
+
     public static Customer searchById(String ID) throws SQLException {
         PreparedStatement pstm = DBConnection.getInstance().getConnection()
                 .prepareStatement("SELECT * FROM Customer WHERE CustomerID =?");
@@ -72,37 +78,19 @@ public class CustomerModel {
     }
 
     public static String getNextCustomerId() throws SQLException {
-        Connection con = DBConnection.getInstance().getConnection();
-
-        String sql = "SELECT CustomerID FROM customer ORDER BY CustomerID DESC LIMIT 1";
-
-        ResultSet resultSet = con.createStatement().executeQuery(sql);
-
-        if (resultSet.next()) {
-            return splitCustomerId(resultSet.getString(1));
+        ResultSet rst = CrudUtil.execute("SELECT CustomerID FROM customer ORDER BY CustomerID DESC LIMIT 1");
+        if (rst.next()) {
+            String id = rst.getString("CustomerID");
+            int newCustomerId = Integer.parseInt(id.replace("C00-", "")) + 1;
+            return String.format("C00-%03d", newCustomerId);
+        } else {
+            return "C00-001";
         }
-        return splitCustomerId(null);
     }
 
-    private static String splitCustomerId(String currentId) {
-        if(currentId != null) {
-            String[] strings = currentId.split("C000");
-            int id = Integer.parseInt(strings[1]);
-            id++;
-            return "C000" + id;
-        }
-        return "C0001";
-    }
 
     public static boolean delete(String id) throws SQLException {
-        try(Connection con =DBConnection.getInstance().getConnection()){
-
-            String sql = "DELETE FROM Customer WHERE CustomerID = ?";
-            PreparedStatement pstm = con.prepareStatement(sql);
-            pstm.setString(1, id);
-
-            return pstm.executeUpdate() > 0;
-        }
+        return CrudUtil.execute("DELETE FROM Customer WHERE CustomerID = ?",id);
     }
 
     public static boolean save(Customer customer) throws SQLException {

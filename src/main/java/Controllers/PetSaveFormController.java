@@ -164,7 +164,7 @@ public class PetSaveFormController implements Initializable {
         }
 
         Stage stage = (Stage) dashboardPane.getScene().getWindow();
-        stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("../view/PetRegisterForm.fxml"))));
+        stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("../view/PetSaveForm.fxml"))));
         stage.setTitle("VETCLOUD");
         stage.centerOnScreen();
         stage.show();

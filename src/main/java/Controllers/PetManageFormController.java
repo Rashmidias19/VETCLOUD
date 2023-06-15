@@ -21,12 +21,19 @@ import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.layout.AnchorPane;
+import javafx.stage.Modality;
 import javafx.stage.Popup;
 import javafx.stage.Stage;
 import model.BillModel;
 import model.CustomerModel;
 import model.EmployeeModel;
 import model.PetModel;
+import net.sf.jasperreports.engine.JRException;
+import net.sf.jasperreports.engine.JasperFillManager;
+import net.sf.jasperreports.engine.JasperPrint;
+import net.sf.jasperreports.engine.JasperReport;
+import net.sf.jasperreports.engine.util.JRLoader;
+import net.sf.jasperreports.view.JasperViewer;
 
 import java.io.IOException;
 import java.net.URL;
@@ -83,8 +90,9 @@ public class PetManageFormController implements Initializable {
     @FXML
     private AnchorPane dashboardPane;
 
+
     public void saveBtnOnAction(ActionEvent event) throws IOException {
-        Stage stage = (Stage) dashboardPane.getScene().getWindow();
+        Stage stage=(Stage) dashboardPane.getScene().getWindow();
         stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("../view/PetSaveForm.fxml"))));
         stage.setTitle("VETCLOUD");
         stage.centerOnScreen();
@@ -94,7 +102,7 @@ public class PetManageFormController implements Initializable {
 
     public void btnBackOnAction(ActionEvent event) throws IOException {
         Stage stage = (Stage) dashboardPane.getScene().getWindow();
-        stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("../view/PetManageForm.fxml"))));
+        stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("../view/ManageForm.fxml"))));
         stage.setTitle("VETCLOUD");
         stage.centerOnScreen();
         stage.show();
@@ -110,19 +118,6 @@ public class PetManageFormController implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-//        tblPet.getColumns().get(0).setCellValueFactory(new PropertyValueFactory<>("PetID"));
-//        tblPet.getColumns().get(1).setCellValueFactory(new PropertyValueFactory<>("Name"));
-//        tblPet.getColumns().get(2).setCellValueFactory(new PropertyValueFactory<>("CustomerID"));
-//        tblPet.getColumns().get(3).setCellValueFactory(new PropertyValueFactory<>("Type"));
-//        tblPet.getColumns().get(4).setCellValueFactory(new PropertyValueFactory<>("Breed"));
-//        tblPet.getColumns().get(5).setCellValueFactory(new PropertyValueFactory<>("Gender"));
-//        tblPet.getColumns().get(6).setCellValueFactory(new PropertyValueFactory<>("DOB"));
-//        tblPet.getColumns().get(7).setCellValueFactory(new PropertyValueFactory<>("Age"));
-//        tblPet.getColumns().get(8).setCellValueFactory(new PropertyValueFactory<>("Address"));
-//        tblPet.getColumns().get(9).setCellValueFactory(new PropertyValueFactory<>("Contact"));
-
-//
-//        getAll();
         setCellValueFactory();
         getAll();
 
@@ -196,5 +191,27 @@ public class PetManageFormController implements Initializable {
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
+    }
+
+    public void btnReportOnAction(ActionEvent event) {
+        try {
+            JasperReport compileReport = (JasperReport) JRLoader.loadObject(this.getClass().getResource("/view/Pet.jasper"));
+            JasperPrint jasperPrint = JasperFillManager.fillReport(compileReport,null,getCon());
+            JasperViewer.viewReport(jasperPrint,false);
+
+        } catch (JRException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public Connection getCon(){
+
+        try {
+            Class.forName("com.mysql.cj.jdbc.Driver");
+            return DriverManager.getConnection("jdbc:mysql://localhost:3306/VETCLOUD","root","1234");
+        } catch (ClassNotFoundException | SQLException e) {
+            e.printStackTrace();
+        }
+        return null;
     }
 }

@@ -75,25 +75,16 @@ public class PetModel {
     }
 
     public static String getNextPetId() throws SQLException {
-        String sql = "SELECT PetID FROM pet ORDER BY PetID DESC LIMIT 1";
-
-        ResultSet resultSet = DBConnection.getInstance().getConnection().createStatement().executeQuery(sql);
-
-        if (resultSet.next()) {
-            return splitPetId(resultSet.getString(1));
+        ResultSet rst = CrudUtil.execute("SELECT PetID FROM pet ORDER BY PetID DESC LIMIT 1");
+        if (rst.next()) {
+            String id = rst.getString("PetID");
+            int newCustomerId = Integer.parseInt(id.replace("P00-", "")) + 1;
+            return String.format("P00-%03d", newCustomerId);
+        } else {
+            return "P00-001";
         }
-        return splitPetId(null);
     }
 
-    private static String splitPetId(String currentId) {
-        if (currentId != null) {
-            String[] strings = currentId.split("P000");
-            int id = Integer.parseInt(strings[1]);
-            id++;
-            return "P000" + id;
-        }
-        return "P0001";
-    }
 
     public static boolean save(Pet pet, FileInputStream inp, File file) throws SQLException, FileNotFoundException {
         String sql = "INSERT INTO Pet(PetID,Name,CustomerID,Type ,Breed,Gender,DOB,age,address,contact,picture )" +
