@@ -92,7 +92,8 @@ public class PetManageFormController implements Initializable {
 
 
     public void saveBtnOnAction(ActionEvent event) throws IOException {
-        Stage stage=(Stage) dashboardPane.getScene().getWindow();
+       // Stage stage=(Stage) dashboardPane.getScene().getWindow();
+        Stage stage=new Stage();
         stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("../view/PetSaveForm.fxml"))));
         stage.setTitle("VETCLOUD");
         stage.centerOnScreen();

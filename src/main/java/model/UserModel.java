@@ -83,27 +83,16 @@ public class UserModel {
     }
 
     public static String getNextUserId() throws SQLException {
-        Connection con = DBConnection.getInstance().getConnection();
-
-        String sql = "SELECT UserID FROM user ORDER BY UserID DESC LIMIT 1";
-
-        ResultSet resultSet = con.createStatement().executeQuery(sql);
-
-        if (resultSet.next()) {
-            return splitUserId(resultSet.getString(1));
-        }
-        return splitUserId(null);
+            ResultSet rst = CrudUtil.execute("SELECT UserID FROM User ORDER BY UserID DESC LIMIT 1");
+            if (rst.next()) {
+                String id = rst.getString("UserID");
+                int newCustomerId = Integer.parseInt(id.replace("U00-", "")) + 1;
+                return String.format("U00-%03d", newCustomerId);
+            } else {
+                return "U00-001";
+            }
     }
 
-    private static String splitUserId(String currentId) {
-        if(currentId != null) {
-            String[] strings = currentId.split("U000");
-            int id = Integer.parseInt(strings[1]);
-            id++;
-            return "U000" + id;
-        }
-        return "U0001";
-    }
 
     public static boolean delete(String id) throws SQLException, ClassNotFoundException {
         return CrudUtil.execute("DELETE FROM User WHERE UserID = ?",id);

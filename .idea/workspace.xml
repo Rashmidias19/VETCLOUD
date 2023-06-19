@@ -5,87 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e734372e-659b-420d-85c9-37c6226b7340" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controllers/CustomerManageFormController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controllers/CustomerSaveFormController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controllers/UserManageFormController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/view/CustomerManageForm.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/view/CustomerSaveForm.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/view/UserManageForm.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controllers/EmployeeManageFormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controllers/UserSaveFormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controllers/UserUpdateController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/EmployeeManageForm.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/UserSaveForm.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/UserUpdate.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controllers/CustomerUpdateFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controllers/CustomerUpdateFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controllers/LoginFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controllers/LoginFormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controllers/CustomerDeleteFormController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controllers/CustomerManagementFormController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controllers/CustomerRegisterFormController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controllers/CustomerViewFormController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Controllers/ManageFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controllers/ManageFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controllers/PetDeleteForm1Controller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controllers/PetDeleteFormController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Controllers/PetManageFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controllers/PetManageFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controllers/PetManagementFormController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controllers/PetSaveFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controllers/PetSaveFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controllers/UserManagementFormController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/CustomerModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/CustomerModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/PetModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/PetModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controllers/UserAddFormController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controllers/UserDeleteFormController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controllers/UserManageFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controllers/UserManageFormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controllers/UserUpdateFormController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/EmployeeModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/EmployeeModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/UserModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/UserModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/CustomerDeleteForm.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/CustomerManagementForm.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/CustomerRegisterForm.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/CustomerUpdateForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/CustomerUpdateForm.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/CustomerViewForm.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/PetDeleteForm.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/PetDeleteForm1.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/PetManageForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/PetManageForm.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/PetManagementForm.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/PetUpdateForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/PetUpdateForm.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/UserManagementForm.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Controllers/CustomerUpdateFormController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controllers/CustomerUpdateFormController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Controllers/CustomerViewFormController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controllers/CustomerViewFormController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Controllers/EmployeeDeleteFormController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controllers/EmployeeDeleteFormController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Controllers/EmployeeRegisterFormController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controllers/EmployeeRegisterFormController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Controllers/EmployeeScheduleFormController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controllers/EmployeeScheduleFormController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Controllers/EmployeeUpdateFormController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controllers/EmployeeUpdateFormController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Controllers/EmployeeViewFormController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controllers/EmployeeViewFormController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Controllers/InhouseAddFormController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controllers/InhouseAddFormController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Controllers/InhouseDeleteFormController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controllers/InhouseDeleteFormController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Controllers/InhouseUpdateFormController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controllers/InhouseUpdateFormController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Controllers/InhouseViewFormController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controllers/InhouseViewFormController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Controllers/ItemDeleteFormController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controllers/ItemDeleteFormController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Controllers/LoginFormController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controllers/LoginFormController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Controllers/ManageFormController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controllers/ManageFormController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Controllers/OperationAddFormController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controllers/OperationAddFormController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Controllers/OperationScheduleFormController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controllers/OperationScheduleFormController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Controllers/PetDeleteForm1Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Controllers/PetDeleteFormController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/UserAddForm.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/UserDeleteForm.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/UserUpdateForm.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/UserViewForm.fxml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Controllers/PetManageFormController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controllers/PetManageFormController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Controllers/PetManagementFormController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Controllers/PetSaveFormController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controllers/PetSaveFormController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Controllers/StockViewFormCotroller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controllers/StockViewFormCotroller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Controllers/SupplieRegisterFormController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controllers/SupplieRegisterFormController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Controllers/SupplieUpdateFormCotroller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controllers/SupplieUpdateFormCotroller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Controllers/UserAddFormController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controllers/UserAddFormController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Controllers/UserDeleteFormController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controllers/UserDeleteFormController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Controllers/UserUpdateFormController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controllers/UserUpdateFormController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Controllers/UserViewFormController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controllers/UserViewFormController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Controllers/VaccinationAddFormController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controllers/VaccinationAddFormController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Controllers/VaccineScheduleFormController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controllers/VaccineScheduleFormController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dto/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dto/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dto/Pet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dto/Pet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/BillModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/BillModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/CustomerModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/CustomerModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/EmployeeModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/EmployeeModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/InhouseModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/InhouseModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/ItemModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/ItemModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/OperationScheduleModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/OperationScheduleModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/PetModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/PetModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Controllers/UserAddFormController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Controllers/UserManageFormController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controllers/UserManageFormController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Controllers/UserManagementFormController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Controllers/UserUpdateFormController.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/model/UserModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/UserModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/VaccinationScheduleModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/VaccinationScheduleModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/CustomerDeleteForm.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/CustomerManagementForm.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/CustomerRegisterForm.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/CustomerUpdateForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/CustomerUpdateForm.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/CustomerViewForm.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/PetDeleteForm.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/PetDeleteForm1.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/PetManageForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/PetManageForm.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/PetManagementForm.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/PetUpdateForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/PetUpdateForm.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/view/UserAddForm.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/view/UserDeleteForm.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/view/UserManagementForm.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/view/UserUpdateForm.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/view/UserViewForm.fxml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -247,7 +200,11 @@
       <workItem from="1685770342416" duration="5283000" />
       <workItem from="1685805177004" duration="15930000" />
       <workItem from="1686555593244" duration="958000" />
-      <workItem from="1686803178830" duration="3183000" />
+      <workItem from="1686803178830" duration="9760000" />
+      <workItem from="1687068784357" duration="820000" />
+      <workItem from="1687142945861" duration="505000" />
+      <workItem from="1687143517027" duration="738000" />
+      <workItem from="1687144448065" duration="1485000" />
     </task>
     <task id="LOCAL-00001" summary="new features added">
       <created>1679897459305</created>
@@ -396,7 +353,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685772569262</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="new features added">
+      <created>1686824066586</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1686824066587</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -415,7 +379,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="new features added" />
     <MESSAGE value="new features added-1" />
     <MESSAGE value="new feature added" />
     <MESSAGE value="new feature added-2" />
@@ -432,7 +395,8 @@
     <MESSAGE value="new commit-11" />
     <MESSAGE value="new commit-12" />
     <MESSAGE value="new commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="new commit" />
+    <MESSAGE value="new features added" />
+    <option name="LAST_COMMIT_MESSAGE" value="new features added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

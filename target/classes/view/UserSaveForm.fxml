@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="dashboardPane" prefHeight="537.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.UserSaveFormController">
+   <children>
+      <ImageView fitHeight="547.0" fitWidth="600.0">
+         <image>
+            <Image url="@../img/3320405_9227.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="173.0" layoutY="14.0" prefHeight="32.0" prefWidth="255.0" style="-fx-background-color: #80795a;" text="    USER REGISTRATION">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.8039215803146362" green="0.729411780834198" blue="0.729411780834198" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </Label>
+      <JFXButton fx:id="btnBack" layoutX="333.0" layoutY="447.0" onAction="#btnBackOnAction" prefHeight="17.0" prefWidth="103.0" style="-fx-background-color: #80795a;" text="Back">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btnSave" layoutX="460.0" layoutY="447.0" onAction="#savebtnOnAction" prefHeight="17.0" prefWidth="103.0" style="-fx-background-color: #80795a;" text="Save">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </JFXButton>
+      <Label layoutX="58.0" layoutY="110.0" prefHeight="20.0" prefWidth="72.0" text="UserID :">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblID" layoutX="150.0" layoutY="105.0" prefHeight="31.0" prefWidth="153.0" />
+      <Label layoutX="58.0" layoutY="174.0" prefHeight="21.0" prefWidth="83.0" text="UserName :">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtName" layoutX="150.0" layoutY="172.0" prefHeight="25.0" prefWidth="255.0" />
+      <Label layoutX="58.0" layoutY="244.0" prefHeight="21.0" prefWidth="83.0" text="Password :">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="63.0" layoutY="305.0" prefHeight="20.0" prefWidth="72.0" text="Email :">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtEmail" layoutX="150.0" layoutY="303.0" prefHeight="25.0" prefWidth="310.0" />
+      <TextField fx:id="txtPassword" layoutX="150.0" layoutY="242.0" prefHeight="25.0" prefWidth="255.0" />
+   </children>
+</AnchorPane>

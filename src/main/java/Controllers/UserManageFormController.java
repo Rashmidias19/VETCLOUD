@@ -55,7 +55,12 @@ public class UserManageFormController implements Initializable {
     @FXML
     private TableColumn<?, ?> colEmail;
 
-    public void saveBtnOnAction(ActionEvent event) {
+    public void saveBtnOnAction(ActionEvent event) throws IOException {
+        Stage stage = (Stage) dashboardPane.getScene().getWindow();
+        stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("../view/UserSaveForm.fxml"))));
+        stage.setTitle("VETCLOUD");
+        stage.centerOnScreen();
+        stage.show();
     }
 
     public void btnBackOnAction(ActionEvent event) throws IOException {
@@ -66,7 +71,12 @@ public class UserManageFormController implements Initializable {
         stage.show();
     }
 
-    public void updateBtnOnAction(ActionEvent event) {
+    public void updateBtnOnAction(ActionEvent event) throws IOException {
+        Stage stage = (Stage) dashboardPane.getScene().getWindow();
+        stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("../view/UserUpdate.fxml"))));
+        stage.setTitle("VETCLOUD");
+        stage.centerOnScreen();
+        stage.show();
     }
 
     public void deleteBtnOnAction(ActionEvent event) {

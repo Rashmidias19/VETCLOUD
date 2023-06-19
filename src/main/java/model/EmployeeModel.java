@@ -157,4 +157,9 @@ public class EmployeeModel {
         }
         return isUpdated;
     }
+
+    public static boolean exist(String id) throws SQLException {
+        ResultSet rst= CrudUtil.execute("SELECT EmployeeID FROM Employee WHERE EmployeeID=?",id);
+        return rst.next();
+    }
 }
